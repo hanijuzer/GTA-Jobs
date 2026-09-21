@@ -1,0 +1,86 @@
+# Weekly job update: collects jobs, applies keyword matching, commits jobs.json,
+# and publishes the site to GitHub Pages. No AI is used anywhere in this workflow.
+name: Weekly job update
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"      # Mondays 10:00 UTC. Change here to adjust frequency (see README).
+  workflow_dispatch:           # "Run workflow" button for manual/test runs
+    inputs:
+      dry_run:
+        description: "Dry run (collect and report only, commit nothing)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]           # redeploy the site when you edit files
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-job-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect and match jobs
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node updater/update.mjs --dry-run
+          else
+            node updater/update.mjs
+          fi
+
+      - name: Commit updated jobs.json
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs.json jobs.js
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly job update $(date -u +'%Y-%m-%d')"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main              # pick up the commit the update job just pushed
+
+      - name: Prepare site
+        run: |
+          mkdir _site
+          cp index.html profile.js matcher.js jobs.json jobs.js _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
