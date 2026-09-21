@@ -1,0 +1,131 @@
+{
+  "_readme": "Job sources for the weekly updater. Set enabled:true/false. Keys go in GitHub Secrets, never in this file. Lower priority number = preferred listing when duplicates are merged (employer sites beat aggregators). See README section 'Add or remove job sources'.",
+
+  "settings": {
+    "updateIntervalDays": 7,
+    "scheduleDescription": "Mondays at 10:00 UTC (6:00 am Toronto in summer, 5:00 am in winter)",
+    "requestDelayMs": 2500,
+    "requestTimeoutMs": 20000,
+    "recentlyClosedDays": 14,
+    "purgeAfterDays": 45,
+    "maxPostingAgeDays": 60,
+    "minimumScore": 30,
+    "userAgent": "GTA-Job-Dashboard/1.0 (personal weekly job digest; respects robots.txt)"
+  },
+
+  "queries": [
+    "project manager construction",
+    "assistant project manager",
+    "senior project manager construction",
+    "construction manager",
+    "project coordinator construction",
+    "project controls",
+    "project engineer construction",
+    "contract administrator construction",
+    "contracts manager",
+    "commercial manager construction",
+    "closeout coordinator",
+    "transit project manager",
+    "infrastructure project manager",
+    "project scheduler primavera"
+  ],
+
+  "sources": [
+    {
+      "id": "adzuna",
+      "name": "Adzuna (aggregates Canadian job boards and employer sites)",
+      "type": "adzuna",
+      "kind": "aggregator",
+      "priority": 3,
+      "enabled": true,
+      "where": "Toronto, Ontario",
+      "distanceKm": 70,
+      "maxDaysOld": 45,
+      "pages": 2,
+      "_setup": "Free key at developer.adzuna.com. Add GitHub secrets ADZUNA_APP_ID and ADZUNA_APP_KEY."
+    },
+    {
+      "id": "jooble",
+      "name": "Jooble (aggregates Canadian job boards)",
+      "type": "jooble",
+      "kind": "aggregator",
+      "priority": 3,
+      "enabled": true,
+      "location": "Toronto, ON",
+      "radiusKm": 80,
+      "pages": 1,
+      "_setup": "Free key at jooble.org/api/about. Add GitHub secret JOOBLE_API_KEY."
+    },
+
+    {
+      "id": "workday-example",
+      "name": "Employer careers (Workday) — replace with a real employer",
+      "type": "workday",
+      "kind": "employer",
+      "priority": 1,
+      "enabled": false,
+      "company": "Employer name",
+      "host": "TENANT.wd3.myworkdayjobs.com",
+      "tenant": "TENANT",
+      "site": "SITE_NAME",
+      "fetchDetails": true,
+      "_setup": "Open the employer's careers page. If the URL looks like https://acme.wd3.myworkdayjobs.com/en-US/AcmeCareers, then host=acme.wd3.myworkdayjobs.com, tenant=acme, site=AcmeCareers. Copy this block once per employer."
+    },
+    {
+      "id": "greenhouse-example",
+      "name": "Employer careers (Greenhouse) — replace with a real employer",
+      "type": "greenhouse",
+      "kind": "employer",
+      "priority": 1,
+      "enabled": false,
+      "company": "Employer name",
+      "board": "BOARD_TOKEN",
+      "_setup": "If jobs are at boards.greenhouse.io/acme, board=acme. Official public API."
+    },
+    {
+      "id": "lever-example",
+      "name": "Employer careers (Lever) — replace with a real employer",
+      "type": "lever",
+      "kind": "employer",
+      "priority": 1,
+      "enabled": false,
+      "company": "Employer name",
+      "site": "SITE_NAME",
+      "_setup": "If jobs are at jobs.lever.co/acme, site=acme. Official public API."
+    },
+    {
+      "id": "smartrecruiters-example",
+      "name": "Employer careers (SmartRecruiters) — replace with a real employer",
+      "type": "smartrecruiters",
+      "kind": "employer",
+      "priority": 1,
+      "enabled": false,
+      "company": "Employer name",
+      "companyIdentifier": "COMPANY_ID",
+      "_setup": "If jobs are at jobs.smartrecruiters.com/Acme, companyIdentifier=Acme. Official public API."
+    },
+    {
+      "id": "rss-example",
+      "name": "Any RSS job feed — paste a feed URL",
+      "type": "rss",
+      "kind": "board",
+      "priority": 2,
+      "enabled": false,
+      "url": "https://example.org/jobs.rss",
+      "company": "",
+      "defaultLocation": "Toronto, ON",
+      "_setup": "Use for employer or public-sector careers pages that publish an RSS feed (look for an RSS icon or 'Subscribe' link)."
+    },
+    {
+      "id": "jsonld-example",
+      "name": "Employer job pages with structured data (schema.org JobPosting)",
+      "type": "jsonld",
+      "kind": "employer",
+      "priority": 1,
+      "enabled": false,
+      "company": "",
+      "urls": ["https://example.org/careers/job-123"],
+      "_setup": "Many career pages embed machine-readable JobPosting data for Google Jobs. The updater reads it only where robots.txt allows."
+    }
+  ]
+}

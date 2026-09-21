@@ -1,0 +1,8 @@
+[
+ {"postingId":"t1","title":"Assistant Project Manager, Stations","company":"Sample Transit Contractor Inc.","location":"Markham, ON","url":"https://example.com/sample-1","datePosted":"2026-09-15","employmentType":"Full-time","salaryRaw":"$95,000 - $120,000 a year","description":"Join a major P3 transit project. Manage change orders, scheduling in Primavera P6, subcontractor management and stakeholder engagement with Metrolinx and TTC. 8+ years of experience in construction project management. PMP an asset. P.Eng preferred. Commissioning and handover documentation. Procore experience required. Procore reporting."},
+ {"postingId":"t2","title":"Asst. Project Manager - Stations","company":"Sample Transit Contractor","location":"Markham, Ontario","url":"https://example.com/sample-1-dup","datePosted":"2026-09-16","description":"Duplicate from another board."},
+ {"postingId":"t3","title":"IT Project Manager","company":"Sample Bank","location":"Toronto, ON","url":"https://example.com/sample-2","description":"Agile software delivery, scrum."},
+ {"postingId":"t4","title":"Project Controls Specialist","company":"Sample Engineering","location":"Vaughan, ON","url":"https://example.com/sample-3","description":"Earned value, EVM, cost control, forecasting, Power BI dashboards. Hybrid work. 5 years experience. 12-month contract."},
+ {"postingId":"t5","title":"Project Manager","company":"Sample Builder","location":"Calgary, AB","url":"https://example.com/sample-4","description":"Outside GTA"},
+ {"postingId":"t6","title":"Construction Manager","company":"Sample Airport Builder","location":"Remote - Ontario","url":"not-a-url","description":"bad url"}
+]
