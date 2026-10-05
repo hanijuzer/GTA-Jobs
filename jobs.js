@@ -3,17 +3,17 @@ window.JOBS_DATA = {
  "meta": {
   "schemaVersion": 1,
   "generator": "updater/update.mjs — rule-based keyword matching, no AI",
-  "lastUpdated": "2026-09-28T10:13:20.509Z",
-  "lastAttempt": "2026-09-28T10:13:20.509Z",
-  "nextUpdate": "2026-10-05T10:00:00.000Z",
+  "lastUpdated": "2026-10-05T10:14:53.566Z",
+  "lastAttempt": "2026-10-05T10:14:53.566Z",
+  "nextUpdate": "2026-10-12T10:00:00.000Z",
   "updateIntervalDays": 7,
   "schedule": "Mondays at 10:00 UTC (6:00 am Toronto in summer, 5:00 am in winter)",
   "counts": {
-   "active": 245,
-   "new": 245,
-   "high": 15,
-   "employers": 123,
-   "closed": 116,
+   "active": 224,
+   "new": 72,
+   "high": 14,
+   "employers": 118,
+   "closed": 209,
    "expired": 0
   }
  },
@@ -22,29 +22,29 @@ window.JOBS_DATA = {
    "id": "adzuna",
    "name": "Adzuna (aggregates Canadian job boards and employer sites)",
    "kind": "aggregator",
-   "lastRun": "2026-09-28T10:13:20.509Z",
-   "lastSuccess": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
+   "lastSuccess": "2026-10-05T10:14:53.566Z",
    "status": "ok",
-   "count": 435,
-   "fetched": 997,
-   "message": "997 fetched, 435 matched the GTA and profile"
+   "count": 410,
+   "fetched": 994,
+   "message": "994 fetched, 410 matched the GTA and profile"
   },
   {
    "id": "jooble",
    "name": "Jooble (aggregates Canadian job boards)",
    "kind": "aggregator",
-   "lastRun": "2026-09-28T10:13:20.509Z",
-   "lastSuccess": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
+   "lastSuccess": "2026-10-05T10:14:53.566Z",
    "status": "ok",
    "count": 0,
-   "fetched": 405,
-   "message": "405 fetched, 0 matched the GTA and profile"
+   "fetched": 394,
+   "message": "394 fetched, 0 matched the GTA and profile"
   },
   {
    "id": "workday-example",
    "name": "Employer careers (Workday) — replace with a real employer",
    "kind": "employer",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -54,7 +54,7 @@ window.JOBS_DATA = {
    "id": "greenhouse-example",
    "name": "Employer careers (Greenhouse) — replace with a real employer",
    "kind": "employer",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -64,7 +64,7 @@ window.JOBS_DATA = {
    "id": "lever-example",
    "name": "Employer careers (Lever) — replace with a real employer",
    "kind": "employer",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -74,7 +74,7 @@ window.JOBS_DATA = {
    "id": "smartrecruiters-example",
    "name": "Employer careers (SmartRecruiters) — replace with a real employer",
    "kind": "employer",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -84,7 +84,7 @@ window.JOBS_DATA = {
    "id": "rss-example",
    "name": "Any RSS job feed — paste a feed URL",
    "kind": "board",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -94,7 +94,7 @@ window.JOBS_DATA = {
    "id": "jsonld-example",
    "name": "Employer job pages with structured data (schema.org JobPosting)",
    "kind": "employer",
-   "lastRun": "2026-09-28T10:13:20.509Z",
+   "lastRun": "2026-10-05T10:14:53.566Z",
    "lastSuccess": null,
    "status": "disabled",
    "count": 0,
@@ -139,8 +139,48 @@ window.JOBS_DATA = {
    ],
    "id": "9299d47da835",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager",
+   "company": "SSA Recruitment",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903859347?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903859347",
+   "datePosted": "2026-09-30T07:14:30.000Z",
+   "validThrough": "",
+   "salaryMin": 90000,
+   "salaryMax": 145000,
+   "salaryEstimated": false,
+   "salary": "$90,000–$145,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Project Manager - ICI Construction �� East Toronto �� $90,000 - $145,000 A growing construction company is seeking an experienced Project Manager to oversee ICI construction projects from pre-construction through closeout. Responsibilities: Manage project schedules, budgets, forecasting, and subcontractors Oversee cost control, billings, reporting, and project performance Ensure compliance with company policies, safety standards, and operational procedures Coordi…",
+   "industry": "Construction (general)",
+   "skills": [
+    "cost control",
+    "budgeting",
+    "forecasting",
+    "subcontractor management",
+    "closeout"
+   ],
+   "matchScore": 90,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "ea892c28ea69",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
@@ -178,9 +218,9 @@ window.JOBS_DATA = {
    ],
    "id": "da52bc44035c",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Controls Manager - Toronto, On.",
@@ -218,9 +258,86 @@ window.JOBS_DATA = {
    ],
    "id": "01d698579c8f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Intermediate/SR Project Manager",
+   "company": "Insight Global",
+   "location": "Ajax, Durham region",
+   "city": "Ajax",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5909666203?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909666203",
+   "datePosted": "2026-10-03T03:54:16.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Insight Global is seeking an experienced Project Manager to lead the planning, execution, and delivery of complex utility, infrastructure, and construction projects. The successful candidate will have a strong background managing large-scale projects, coordinating cross-functional stakeholders, overseeing budgets and schedules, and ensuring successful project delivery from initiation through completion. Candidates with direct utility or utility contractor experience are highly p…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "budgeting",
+    "stakeholder management",
+    "team leadership"
+   ],
+   "matchScore": 85,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "16e9123e4249",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager, Infrastructure",
+   "company": "Plan Group",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5903854071?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903854071",
+   "datePosted": "2026-09-30T07:08:58.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Do you welcome the challenge of working on complex, multi-million dollar projects and take pride on completing them on time and on budget? Take the leap and make your mark at Plan Group! As Project Manager, Infrastructure within the Technology group you will be asked to do the following: Effectively carry out Plan Group’s project management procedures from initial award of job to conclusion (Project schedule, change orders, as-built drawings, close out documents,…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "project management",
+    "budgeting",
+    "change orders",
+    "as-built"
+   ],
+   "matchScore": 85,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "792f330903bd",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager (Construction)",
@@ -257,21 +374,60 @@ window.JOBS_DATA = {
    "id": "c667450d6554",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
+  },
+  {
+   "title": "Project Manager (Substations)",
+   "company": "Valard Construction",
+   "location": "Markham, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5909996533?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909996533",
+   "datePosted": "2026-10-03T08:13:42.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Our Substations group is currently looking to add a Project Manager to our growing team, based in either Calgary, AB or Markham, ON. Reporting to the Senior Project Manager, we are seeking an experienced and results-driven Project Manager to lead the full lifecycle delivery of substation projects across Canada. This role owns safety, schedule, cost, quality, and client relationship outcomes from contract handover through commissioning and closeout. The successful…",
+   "industry": "Municipal & utilities",
+   "skills": [
+    "handover",
+    "closeout",
+    "commissioning"
+   ],
+   "matchScore": 80,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c986c57add6f",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
-   "title": "Intermediate/SR Project Manager",
-   "company": "Insight Global",
-   "location": "Ajax, Durham region",
-   "city": "Ajax",
-   "region": "Durham",
-   "url": "https://www.adzuna.ca/details/5891453838?utm_medium=api&utm_source=070f26fd",
+   "title": "Project Manager (Corporate Occupier)",
+   "company": "Turner & Townsend",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5904075466?utm_medium=api&utm_source=070f26fd",
    "source": "Adzuna",
    "sourceId": "adzuna",
    "sourceKind": "aggregator",
-   "postingId": "adzuna:5891453838",
-   "datePosted": "2026-09-20T03:15:00.000Z",
+   "postingId": "adzuna:5904075466",
+   "datePosted": "2026-09-30T12:20:24.000Z",
    "validThrough": "",
    "salaryMin": null,
    "salaryMax": null,
@@ -279,65 +435,24 @@ window.JOBS_DATA = {
    "salary": "",
    "employmentType": "Full-time",
    "workArrangement": "On-site",
-   "description": "Job Description Insight Global is seeking an experienced Project Manager to lead the planning, execution, and delivery of complex utility, infrastructure, and construction projects. The successful candidate will have a strong background managing large-scale projects, coordinating cross-functional stakeholders, overseeing budgets and schedules, and ensuring successful project delivery from initiation through completion. Candidates with direct utility or utility contractor experience are highly p…",
-   "industry": "Heavy civil & infrastructure",
+   "description": "Job Description As a Project Manager, you will be involved in: Leading individual tasks throughout the design, procurement and construction process including furniture install and coordination with client I.T. Working with the client team to identify initial budgets and scheduling at project feasibility. Setting up and lead meetings, transcribe meeting minutes and drive action items to closure. Ensuring project compliance with client’s document controls and file specifications. Collaborating an…",
+   "industry": "Industrial",
    "skills": [
     "budgeting",
-    "stakeholder management",
-    "team leadership"
+    "scheduling",
+    "procurement"
    ],
-   "matchScore": 85,
+   "matchScore": 80,
    "matchLevel": "High",
    "alsoFoundOn": [],
    "sourceIds": [
     "adzuna"
    ],
-   "id": "16e9123e4249",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Project Manager, Infrastructure",
-   "company": "Plan Group",
-   "location": "Vaughan, York region",
-   "city": "Vaughan",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5862147318?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5862147318",
-   "datePosted": "2026-08-30T06:48:15.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Do you welcome the challenge of working on complex, multi-million dollar projects and take pride on completing them on time and on budget? Take the leap and make your mark at Plan Group! As Project Manager, Infrastructure within the Technology group you will be asked to do the following: Effectively carry out Plan Group’s project management procedures from initial award of job to conclusion (Project schedule, change orders, as-built drawings, close out documents,…",
-   "industry": "Heavy civil & infrastructure",
-   "skills": [
-    "project management",
-    "budgeting",
-    "change orders",
-    "as-built"
-   ],
-   "matchScore": 85,
-   "matchLevel": "High",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "792f330903bd",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
+   "id": "04f9bf362521",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
   },
   {
    "title": "Project Manager",
@@ -358,7 +473,7 @@ window.JOBS_DATA = {
    "salary": "",
    "employmentType": "Full-time",
    "workArrangement": "On-site",
-   "description": "Job Description Job Description Construction Project Manager – Etobicoke, Ontario Full-Time Permanent Position Salary Range $90,000 to $130,000 negotiable dependent on experience Our General Contractor and Construction Management Client delivering commercial, multi-residential, hotel, and other construction projects throughout Ontario. Is seeking an experienced Construction Project Manager who can take ownership of projects from pre-construction through construction, closeout, and turnover. The…",
+   "description": "Job Description Job Description Construction Project Manager – Etobicoke, Ontario Full-Time Permanent Position Salary Range $100,000 to $150,000 negotiable dependent on experience Our General Contractor and Construction Management Client delivering commercial, multi-residential, hotel, and other construction projects throughout Ontario. Is seeking an experienced Construction Project Manager who can take ownership of projects from pre-construction through construction, closeout, and turnover. Th…",
    "industry": "Buildings",
    "skills": [
     "construction management",
@@ -373,8 +488,118 @@ window.JOBS_DATA = {
    ],
    "id": "e2db84dc6014",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Senior Project Manager / Project Director, ICI Buildings | General Contractor | Toronto / Vancouver | Outpost Recruitment",
+   "company": "Moving2Canada Consulting Inc.",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5910300225?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910300225",
+   "datePosted": "2026-10-03T12:41:25.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Large general contractor seeking experienced, business-minded Senior Project Manager /Project Director to direct their larger ICI (Industrial, Commercial & Institutional) projects ($100m plus) in Vancouver or Toronto. Outpost Recruitment is excited to work with our client on this full-time permanent role. You’re a Senior Project Manager with over 8 years of experience working in multi-disciplinary large-scale $100MM residential, mixed use and/or office construction projects. You will develop an…",
+   "industry": "Industrial",
+   "skills": [
+    "team leadership"
+   ],
+   "matchScore": 75,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "ee36f75702a7",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager - Corporate Planning & Development - Regular Full-Time 2026-18948",
+   "company": "Sunnybrook Health Sciences Centre",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909717648?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909717648",
+   "datePosted": "2026-10-03T04:48:49.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Summary of Duties Reports to the Director, Corporate Planning and Development Lead, organize and manage the execution of assigned capital or renovation projects, the work comprising of but not limited to: Consolidation of user requirements Interpreting/conveying user requirements to design consultants Liaison with authorities having jurisdiction Project design and documentation Tendering and bid review processes Contract administration Project cost control Commissioning Compile and complete all…",
+   "industry": "Construction (general)",
+   "skills": [
+    "cost control",
+    "contract management",
+    "commissioning"
+   ],
+   "matchScore": 75,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "f076a5333c0f",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Project Manager - Tunnel & Underground",
+   "company": "EBC Inc.",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5902068151?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5902068151",
+   "datePosted": "2026-09-28T21:19:14.000Z",
+   "validThrough": "",
+   "salaryMin": 125000,
+   "salaryMax": 175000,
+   "salaryEstimated": false,
+   "salary": "$125,000–$175,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "EBC thinks outside the box and deploys all its know-how to carry out major infrastructure projects: bridges, roads, highways, tunnels, marine installations. Our ability to meet deadlines and budgets as well as our vast expertise in the field allow us to actively participate in large-scale projects such as the Samuel-De-Champlain Bridge, the Réseau Express Métropolitain (REM) and the Site C hydroelectric power station located near Fort St-John in British Columbia. Our seasoned team of engineers,…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "budgeting"
+   ],
+   "matchScore": 75,
+   "matchLevel": "High",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "825140ddf46f",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
@@ -412,8 +637,9 @@ window.JOBS_DATA = {
    "id": "1d9b26859cdc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, Roofing",
@@ -450,8 +676,9 @@ window.JOBS_DATA = {
    "id": "37c8742db447",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, Waterproofing",
@@ -488,8 +715,9 @@ window.JOBS_DATA = {
    "id": "0eb65193fb40",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Construction Manager, Electrical Construction | MEP & Cabling Contractor | Richmond Hill, ON - MyGreat Recruitment",
@@ -524,8 +752,9 @@ window.JOBS_DATA = {
    "id": "251788cbd37a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager / Project Director, ICI Buildings | General Contractor | Toronto / Vancouver | Outpost Recruitment",
@@ -560,8 +789,9 @@ window.JOBS_DATA = {
    "id": "1b92a1f12a07",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -597,9 +827,9 @@ window.JOBS_DATA = {
    ],
    "id": "6f5f5d3a4f9a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Tunnel & Underground Works",
@@ -634,8 +864,9 @@ window.JOBS_DATA = {
    "id": "a4d2cb4d960a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Controls Manager",
@@ -671,8 +902,9 @@ window.JOBS_DATA = {
    "id": "6bd37c351883",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, ICI Construction",
@@ -707,7 +939,7 @@ window.JOBS_DATA = {
    "id": "bd6b5db7b037",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -744,48 +976,9 @@ window.JOBS_DATA = {
    ],
    "id": "bd5ff6de216f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Construction Project Coordinator, Architectural Trades",
-   "company": "Ontario Transit Group",
-   "location": "Toronto, Ontario",
-   "city": "Toronto",
-   "region": "Toronto",
-   "url": "https://www.adzuna.ca/details/5870262518?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5870262518",
-   "datePosted": "2026-09-04T04:39:59.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description The Project Coordinator, Architectural Trades supports the planning, procurement, coordination, installation, inspection, and closeout of architectural construction packages for station and associated building areas. Working closely with the Architectural Project Manager, site supervision, design consultants, quality teams, commercial teams, suppliers, and subcontractors, the Project Coordinator helps ensure that architectural work is executed safely, in the correct sequence, an…",
-   "industry": "Transit & rail",
-   "skills": [
-    "subcontractor management",
-    "procurement",
-    "closeout",
-    "site inspections"
-   ],
-   "matchScore": 75,
-   "matchLevel": "High",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "9ef10aee277e",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Scheduler",
@@ -823,9 +1016,47 @@ window.JOBS_DATA = {
    "id": "4f92a157e8c2",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
+  },
+  {
+   "title": "Senior Project Manager",
+   "company": "IPG Workforce Solutions",
+   "location": "Markham, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5909988544?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909988544",
+   "datePosted": "2026-10-03T08:10:53.000Z",
+   "validThrough": "",
+   "salaryMin": 80000,
+   "salaryMax": 120000,
+   "salaryEstimated": false,
+   "salary": "$80,000–$120,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the job Reporting to the Estimating Manager, the Construction Project Manager is responsible for effective communication with the Estimating and Construction departments while working with the team to develop relationships with customers, collect and analyze market intelligence, manage trucking/logistics, and ensure the collection of receivables, extra work orders, and change orders. Responsibilities: Project management of all contracts either awarded or as…",
+   "industry": "Construction (general)",
+   "skills": [
+    "project management",
+    "estimating",
+    "change orders"
+   ],
+   "matchScore": 70,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "95f2234a9bd6",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
   },
   {
    "title": "Senior Project Manager - Interim Capacity",
@@ -859,9 +1090,9 @@ window.JOBS_DATA = {
    ],
    "id": "2f1426bb29fc",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -898,9 +1129,9 @@ window.JOBS_DATA = {
    ],
    "id": "051b9d35e187",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager Cladding",
@@ -937,7 +1168,7 @@ window.JOBS_DATA = {
    "id": "5b274cab31b0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -975,7 +1206,7 @@ window.JOBS_DATA = {
    "id": "cc88b5344e93",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1013,7 +1244,7 @@ window.JOBS_DATA = {
    "id": "36a11f147cb4",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1049,9 +1280,9 @@ window.JOBS_DATA = {
    ],
    "id": "93e44caaae27",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Electrical Construction Project Manager",
@@ -1085,9 +1316,9 @@ window.JOBS_DATA = {
    ],
    "id": "1fbece8d0c78",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Mechanical Construction Project Manager",
@@ -1122,8 +1353,9 @@ window.JOBS_DATA = {
    "id": "a6c649a502a6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Bridges",
@@ -1159,7 +1391,45 @@ window.JOBS_DATA = {
    "id": "1ef011bd11bc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
+  },
+  {
+   "title": "Project Manager, Glazing",
+   "company": "Triumph Group of Companies",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5903656079?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903656079",
+   "datePosted": "2026-09-30T04:50:42.000Z",
+   "validThrough": "",
+   "salaryMin": 100000,
+   "salaryMax": 120000,
+   "salaryEstimated": false,
+   "salary": "$100,000–$120,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Title: Project Manager, Glazing Location: Greater Toronto Area Company: Triumph Group of Companies Role Overview The Project Manager, Glazing leads the full lifecycle of commercial and residential glazing projects across the GTA, from preconstruction planning through to close-out. You will manage project budgets, control costs, build and maintain schedules, and serve as the primary point of contact for clients and general contractors throughout the project lifecycle. This role works closely wit…",
+   "industry": "Buildings",
+   "skills": [
+    "budgeting",
+    "closeout"
+   ],
+   "matchScore": 65,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "f40cea775a4b",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
@@ -1195,8 +1465,9 @@ window.JOBS_DATA = {
    "id": "3566886a017a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -1231,9 +1502,9 @@ window.JOBS_DATA = {
    ],
    "id": "1fabc403ce60",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "RQ00810 - Project Manager/Leader - Senior",
@@ -1269,8 +1540,46 @@ window.JOBS_DATA = {
    "id": "3244bf889d65",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
+  },
+  {
+   "title": "Senior Project Manager",
+   "company": "SSA Recruitment",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5898270074?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5898270074",
+   "datePosted": "2026-09-25T07:07:57.000Z",
+   "validThrough": "",
+   "salaryMin": 130000,
+   "salaryMax": 150000,
+   "salaryEstimated": false,
+   "salary": "$130,000–$150,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Senior Project Manager / Construction Manager A reputable construction company is seeking an experienced Senior Project Manager / Construction Manager to oversee the successful delivery of large-scale and complex construction projects. Responsibilities: Lead and manage large construction projects from pre-construction through completion Oversee project schedules, budgets, financial performance, and quality control Manage relationships with owners, consultants, su…",
+   "industry": "Construction (general)",
+   "skills": [
+    "budgeting",
+    "quality assurance"
+   ],
+   "matchScore": 65,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "8ce4473b356a",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager/Leader in Toronto, ON M5B 2B8 (5 days On-site)",
@@ -1306,8 +1615,9 @@ window.JOBS_DATA = {
    "id": "a4be1c681de1",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Director",
@@ -1341,9 +1651,9 @@ window.JOBS_DATA = {
    ],
    "id": "d1febc42573a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Scheduler - Toronto, On",
@@ -1380,9 +1690,9 @@ window.JOBS_DATA = {
    ],
    "id": "830798ab47f2",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Director, Major Project – Tunnel & Underground Group",
@@ -1416,9 +1726,9 @@ window.JOBS_DATA = {
    ],
    "id": "d73e98ceaf03",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "RQ11582 - Project Manager/Leader - Senior",
@@ -1454,7 +1764,7 @@ window.JOBS_DATA = {
    "id": "a2a0986768f8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1492,7 +1802,7 @@ window.JOBS_DATA = {
    "id": "fcdf90a23194",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1530,7 +1840,7 @@ window.JOBS_DATA = {
    "id": "33d106588a1b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1568,7 +1878,7 @@ window.JOBS_DATA = {
    "id": "eea2881267aa",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1606,7 +1916,7 @@ window.JOBS_DATA = {
    "id": "5f34148c3951",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1640,9 +1950,9 @@ window.JOBS_DATA = {
    ],
    "id": "84bb5d170271",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Assistant Contracts Manager",
@@ -1677,8 +1987,9 @@ window.JOBS_DATA = {
    "id": "2619a3243cdc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -1714,7 +2025,7 @@ window.JOBS_DATA = {
    "id": "0713a6899c52",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -1751,8 +2062,333 @@ window.JOBS_DATA = {
    ],
    "id": "a88b1417333e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Construction Project Manager, Architectural",
+   "company": "Ontario Transit Group",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911449213?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911449213",
+   "datePosted": "2026-10-04T07:19:00.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Company Description Ferrovial Construction Canada Inc. and VINCI Construction Grands Projets are undertaking the design, build, and finance the Ontario Line Southern Civil, Stations, and Tunnel (South Civil) package. As Ontario Transit Group, we are now mobilizing our design and construction crews, with major works. The South Civil contract is anticipated to be completed in 2030. The project will strengthen Ontario’s economy by supporting an estimated 1,500 jobs …",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "26a3a784bef9",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager, Roofing",
+   "company": "Triumph Group of Companies",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909988195?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909988195",
+   "datePosted": "2026-10-03T08:10:37.000Z",
+   "validThrough": "",
+   "salaryMin": 90000,
+   "salaryMax": 120000,
+   "salaryEstimated": false,
+   "salary": "$90,000–$120,000 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Title: Project Manager, Roofing Location: Greater Toronto Area Company: Triumph Group of Companies Role Overview The Project Manager, Roofing manages roofing and waterproofing projects from award through closeout, reporting to and learning from the Senior Project Manager as you build toward running larger and more complex work. You own the budget, schedule, and day to day client relationship on your projects, working alongside estimators, superintendents, and gen…",
+   "industry": "Construction (general)",
+   "skills": [
+    "budgeting",
+    "closeout"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "cc5e9ad2bb5b",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager, Construction",
+   "company": "Recipe",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5909709181?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909709181",
+   "datePosted": "2026-10-03T04:35:47.000Z",
+   "validThrough": "",
+   "salaryMin": 80000,
+   "salaryMax": 100000,
+   "salaryEstimated": false,
+   "salary": "$80,000–$100,000 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "The Construction Project Manager is responsible for planning, directing, managing and providing oversight of assigned renovations projects to ensure that Recipe goals and objectives are accomplished within prescribed schedule and budget parameters. Effectively communicating with internal stakeholders, consultants, Landlords, technical staff, contractors and management. Provides internal and external coordination and collaboration with project partners and stakeholders. This position will assist…",
+   "industry": "Construction (general)",
+   "skills": [
+    "budgeting",
+    "stakeholder management"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "6cc88605a39e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Project Manager",
+   "company": "Insight Global",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909666248?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909666248",
+   "datePosted": "2026-10-03T03:54:17.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Insight Global is seeking a hands-on Senior Project Manager to lead the successful delivery of enterprise application, software, database, and infrastructure projects for one of our large banking clients. This role is heavily focused on project governance, process adherence, financial tracking, documentation, stakeholder coordination, and audit readiness. The successful candidate will be responsible for driving projects from initiation through closure while ensuring compliance w…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "stakeholder management"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "0d86dd2074d9",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Manager, Contracts and Ceded Re Ops",
+   "company": "Next Insurance, Inc.",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5908476982?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908476982",
+   "datePosted": "2026-10-02T12:49:48.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "HSB Canada, part of Munich Re, is Canada's premier engineering-driven specialty insurer and provider of inspection, engineering and technology services that set the standard for excellence in the market. Our constantly evolving offerings lead the market in cyber, equipment breakdown, renewable energy, technology services, engineering based risk management and inspection services. We bring technical expertise to help our clients stay ahead of complex, emerging, and technology-based risks. We dar…",
+   "industry": "Construction (general)",
+   "skills": [
+    "risk management",
+    "site inspections"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c094242f7c7d",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "RQ11335 - Sr. Project Manager/Leader",
+   "company": "Source Code",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5908013845?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908013845",
+   "datePosted": "2026-10-02T08:17:56.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Job Description RQ11335 - Sr. Project Manager/Leader 8-month contract (162 business days) Hybrid - 3 days in the office - 222 Jarvis Street Security Level: CRJMC Must Have: Strong knowledge of cybersecurity principles, security governance, risk management, cloud and network security, Zero Trust architectures, and security-by-design practices is essential. The candidate should have a proven track record of driving organizational change, continuous improvement, and successful deli…",
+   "industry": "Construction (general)",
+   "skills": [
+    "risk management",
+    "continuous improvement"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "93a524acde75",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "RQ11148 - Sr. Project Manager/Leader",
+   "company": "Source Code",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5905592053?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905592053",
+   "datePosted": "2026-10-01T08:37:07.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description RQ11148 - Sr. Project Manager/Leader 1-year 10 month contract (447) - 1 possible extension ONSITE 5 days - 222 Jarvis St. or 49 Place d'Armes Kingston Security Level: CRJMC Must have: · Over 10 years of project management experience leading and planning complex, mission critical projects or initiatives involving business transformation, and design, development, implementation, and integration of IT solutions and services including web-based applications, Cloud-ba…",
+   "industry": "Construction (general)",
+   "skills": [
+    "project management"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a21bfc49c69a",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager, Mechanical Construction",
+   "company": "Plan Group",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5903858545?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903858545",
+   "datePosted": "2026-09-30T07:13:07.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Do you enjoy working in a fast-paced, high volume capacity? Do you enjoy competing against time and budget constraints to complete projects? If so, take the leap and make your mark at Plan Group! As an Project Manager, Mechanical Construction , you will be asked to do the following: Establish and achieve project targets and milestones to deliver electrical projects on-time and within budget. Provide active promotion and leadership in Health and Safety Monitor and…",
+   "industry": "Construction (general)",
+   "skills": [
+    "budgeting",
+    "health and safety"
+   ],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c43467ea734f",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Station Manager, Construction Technical Office",
+   "company": "Ontario Transit Group",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903858039?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903858039",
+   "datePosted": "2026-09-30T07:12:17.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Company Description Ferrovial Construction Canada Inc. and VINCI Construction Grands Projets are undertaking the design, build, and finance the Ontario Line Southern Civil, Stations, and Tunnel (South Civil) package. As Ontario Transit Group, we are now mobilizing our design and construction crews, with major works. The South Civil contract is anticipated to be completed in 2030. The project will strengthen Ontario’s economy by supporting an estimated 1,500 jobs …",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 60,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "e8e0a3119f23",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
@@ -1788,8 +2424,9 @@ window.JOBS_DATA = {
    "id": "b8fd87014cab",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager/Leader - Senior",
@@ -1824,8 +2461,9 @@ window.JOBS_DATA = {
    "id": "3bdb9f102886",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Design-Build Project Manager",
@@ -1860,8 +2498,9 @@ window.JOBS_DATA = {
    "id": "ac24e867f968",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Transportation Engineering & Planning",
@@ -1894,8 +2533,9 @@ window.JOBS_DATA = {
    "id": "38b6b2cdb565",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Industrial Project Manager",
@@ -1929,9 +2569,9 @@ window.JOBS_DATA = {
    ],
    "id": "c02fa631e8bd",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager Formwork & Concrete",
@@ -1965,9 +2605,9 @@ window.JOBS_DATA = {
    ],
    "id": "b59c5947ef52",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Manager (Commercial Interiors)",
@@ -2001,9 +2641,9 @@ window.JOBS_DATA = {
    ],
    "id": "a14abfaac691",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - MEC Transportation",
@@ -2037,9 +2677,9 @@ window.JOBS_DATA = {
    ],
    "id": "7964206efdb1",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Controls Estimator I Hybrid",
@@ -2079,9 +2719,9 @@ window.JOBS_DATA = {
    ],
    "id": "327235fe963a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "RQ00785 - Project Manager/Leader - Senior",
@@ -2117,7 +2757,7 @@ window.JOBS_DATA = {
    "id": "13daa08ec0e1",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2156,8 +2796,9 @@ window.JOBS_DATA = {
    "id": "d06a5c7800a8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Design Build Project Manager",
@@ -2191,9 +2832,9 @@ window.JOBS_DATA = {
    ],
    "id": "754959bdb291",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Manager",
@@ -2228,9 +2869,9 @@ window.JOBS_DATA = {
    ],
    "id": "d57000e4de47",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Civil Project Manager",
@@ -2265,43 +2906,9 @@ window.JOBS_DATA = {
    ],
    "id": "e4a2aa7458be",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Manager",
-   "company": "Metrolinx",
-   "location": "Rua Açores, City of Toronto",
-   "city": "Toronto",
-   "region": "Toronto",
-   "url": "https://www.adzuna.ca/details/5888949158?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5888949158",
-   "datePosted": "2026-09-18T04:47:06.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Description Project site locations may be across several sites including Lakeshore West, Lakeshore East, Kitchener, Barrie, Richmond Hill, Stouffville, and Union Station. Metrolinx is connecting communities across the Greater Golden Horseshoe. Metrolinx operates GO Transit and UP Express, as well as the PRESTO fare payment system. We are also building new and improved rapid transit, including GO Expansion, Light Rail Transit routes, and major expansions to Toronto’s subway system, to get people…",
-   "industry": "Transit & rail",
-   "skills": [],
-   "matchScore": 60,
-   "matchLevel": "Good",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "c73a8baf7439",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager, Capital Infrastructure",
@@ -2336,8 +2943,9 @@ window.JOBS_DATA = {
    "id": "57f605acecab",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Construction Manager - Station Area",
@@ -2370,8 +2978,9 @@ window.JOBS_DATA = {
    "id": "58bad8934144",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Electrical Estimator / Project Manager",
@@ -2406,7 +3015,7 @@ window.JOBS_DATA = {
    "id": "fb42a3311b8b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2444,8 +3053,9 @@ window.JOBS_DATA = {
    "id": "b9410a318f29",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, ICI Construction",
@@ -2478,7 +3088,7 @@ window.JOBS_DATA = {
    "id": "7e5bbd1a8c8b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2515,7 +3125,7 @@ window.JOBS_DATA = {
    "id": "ec6c2ac97c6d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2552,7 +3162,7 @@ window.JOBS_DATA = {
    "id": "80d392e640a7",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2595,7 +3205,7 @@ window.JOBS_DATA = {
    "id": "1e841cd9ab44",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2632,7 +3242,7 @@ window.JOBS_DATA = {
    "id": "a30c5117b6c0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2669,8 +3279,9 @@ window.JOBS_DATA = {
    "id": "93c5897835f5",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -2706,7 +3317,7 @@ window.JOBS_DATA = {
    "id": "02af85d22a8e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -2743,8 +3354,9 @@ window.JOBS_DATA = {
    "id": "0e4c53416242",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Municipal Infrastructure",
@@ -2779,8 +3391,9 @@ window.JOBS_DATA = {
    "id": "6ccc47aaf248",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Director, ICI Building Construction",
@@ -2815,9 +3428,221 @@ window.JOBS_DATA = {
    "id": "a9ae542865b6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
+  },
+  {
+   "title": "Assistant Project Manager",
+   "company": "Colliers Project Leaders Inc.",
+   "location": "Etobicoke, Toronto",
+   "city": "Etobicoke",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911030091?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911030091",
+   "datePosted": "2026-10-04T00:00:05.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Colliers Project Leaders is a team committed to projects that make a difference in communities and for the people who live there. We deliver capital project solutions that strengthen the built environment, partnering with our clients to bring critical infrastructure and complex building projects to life. We’ve led over 20,000 projects that: Make cities more livable Enhance workplaces Create spaces people want to return to Improve patient care Deliver clean drinking water Build a sustainable fut…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "1ad4ea8dc17e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager",
+   "company": "TalentSphere",
+   "location": "Woodbridge, York region",
+   "city": "Woodbridge",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5909987543?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909987543",
+   "datePosted": "2026-10-03T08:10:05.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description PROJECT MANAGER – ICI / INSTITUTIONAL CONSTRUCTION Greater Toronto Area, ON $130,000 – $160,000 Benefits | Full-Time Our client, an established General Contractor and Construction Management firm, is looking to add an experienced Project Manager to its growing construction team. The successful candidate will have a strong background managing institutional and commercial construction projects and will be capable of taking projects from preconstruction and procure…",
+   "industry": "Buildings",
+   "skills": [
+    "construction management"
+   ],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "4d965e385ca1",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Geotechnical Project Manager",
+   "company": "Pinchin Canada Career",
+   "location": "Church and Wellesley, City of Toronto",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909717013?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909717013",
+   "datePosted": "2026-10-03T04:47:39.000Z",
+   "validThrough": "",
+   "salaryMin": 80000,
+   "salaryMax": 100000,
+   "salaryEstimated": false,
+   "salary": "$80,000–$100,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Geotechnical Project Manager Greater Toronto Area, ON Annual Salary Range: CAD $80,000-$100,000 Ready for your next move? Pinchin’s Geotechnical Practice is growing, and we’re looking for great talent to join our GTA team. Come grow your career with us! Pinchin makes buildings and environments better. We are a multidisciplinary engineering and consulting firm with offices across North America. Our teams bring together expertise in environmental services, compliance, building science and resilie…",
+   "industry": "Buildings",
+   "skills": [
+    "team leadership"
+   ],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "6a984df66d1c",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager (BTS) CCJ1JP00000718",
+   "company": "Morson",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909709455?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909709455",
+   "datePosted": "2026-10-03T04:36:24.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Role: Project Manager (BTS) Contract Duration: 08/05/2025 to 07/31/2026 Work Location: 2121-11th Street West, Saskatoon, SK(Cameco Head Office) Vacancies: 1 Role Description / Key Responsibilities • Lead in project delivery, planning, management and control of project schedules, costs, and deliverables. Effectively keep management and stakeholders informed and up to date • Manage all phases of project work including all Cameco process work that is necessary to move projects thro…",
+   "industry": "Industrial",
+   "skills": [
+    "stakeholder management"
+   ],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c929a29643ca",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Construction Manager",
+   "company": "JD Development Group",
+   "location": "Unionville, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5904304119?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5904304119",
+   "datePosted": "2026-09-30T18:52:32.000Z",
+   "validThrough": "",
+   "salaryMin": 130000,
+   "salaryMax": 165000,
+   "salaryEstimated": false,
+   "salary": "$130,000–$165,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "About the Role JD Development Group is a Markham-based residential real estate developer building low-rise, mid-rise and mixed-use communities across the GTA. Current and upcoming projects include Verde Living, 45 Agnes, Lake VUC, Aria Mid-rise and Sunningdale. The Construction Manager is JD's senior leader on site. They turn approved drawings, budgets and schedules into finished homes, delivered safely, on time, on budget and to the quality our purchasers expect. They work closely with the own…",
+   "industry": "Buildings",
+   "skills": [
+    "budgeting"
+   ],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "72311a4f38f9",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager",
+   "company": "Metrolinx",
+   "location": "Toronto Dominion Centre, City of Toronto",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903654085?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903654085",
+   "datePosted": "2026-09-30T04:47:13.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Description Contract up to 12 months Metrolinx is connecting communities across the Greater Golden Horseshoe. Metrolinx operates GO Transit and UP Express, as well as the PRESTO fare payment system. We are also building new and improved rapid transit, including GO Expansion, Light Rail Transit routes, and major expansions to Toronto’s subway system, to get people where they need to go, better, faster and easier. Metrolinx is an agency of the Government of Ontario. At Metrolinx, equity, diversit…",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 55,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c73a8baf7439",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager, Traffic & Transportation, Ontario Line",
@@ -2849,9 +3674,9 @@ window.JOBS_DATA = {
    ],
    "id": "1f86ab9819be",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Electrical Project Engineer - Nuclear",
@@ -2886,9 +3711,9 @@ window.JOBS_DATA = {
    ],
    "id": "4edd0ff974b2",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager (Bilingual)",
@@ -2922,9 +3747,9 @@ window.JOBS_DATA = {
    ],
    "id": "0874855be4a7",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Estimator - Water/Wastewater Construction",
@@ -2961,8 +3786,9 @@ window.JOBS_DATA = {
    "id": "dab6826b7796",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - Commercial Buildings",
@@ -2994,9 +3820,9 @@ window.JOBS_DATA = {
    ],
    "id": "981815485ccc",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Mechanical Special Projects",
@@ -3030,9 +3856,9 @@ window.JOBS_DATA = {
    ],
    "id": "35e2633cacd4",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager, Program Delivery Controls and Configuration Management",
@@ -3065,8 +3891,9 @@ window.JOBS_DATA = {
    "id": "a56554255a61",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -3098,9 +3925,9 @@ window.JOBS_DATA = {
    ],
    "id": "9fc43151e68b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - ICI Construction",
@@ -3135,7 +3962,7 @@ window.JOBS_DATA = {
    "id": "f7f8a0e67ecf",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -3172,8 +3999,9 @@ window.JOBS_DATA = {
    "id": "167a0dfdbe21",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Construction Project Manager Hamilton, Ontario",
@@ -3194,7 +4022,7 @@ window.JOBS_DATA = {
    "salary": "",
    "employmentType": "Full-time",
    "workArrangement": "On-site",
-   "description": "Job Description Job Description Construction Project Manager – Hamilton, Ontario Full-Time Permanent Position Salary Range $90,000 to $130,000 Office Based in Etobicoke. Candidates must be willing to travel to worksites in Hamilton. Our General Contractor and Construction Management Client delivering commercial, multi-residential, hotel, and other construction projects throughout Ontario. Is seeking an experienced Construction Project Manager who can take ownership of projects from pre-construc…",
+   "description": "Job Description Job Description Construction Project Manager – Hamilton, Ontario Full-Time Permanent Position Salary Range $100,000 to $150,000 Office Based in Etobicoke. Candidates must be willing to travel to worksites in Hamilton. Our General Contractor and Construction Management Client delivering commercial, multi-residential, hotel, and other construction projects throughout Ontario. Is seeking an experienced Construction Project Manager who can take ownership of projects from pre-constru…",
    "industry": "Buildings",
    "skills": [
     "construction management"
@@ -3207,9 +4035,9 @@ window.JOBS_DATA = {
    ],
    "id": "a77d5868bc99",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager",
@@ -3244,7 +4072,7 @@ window.JOBS_DATA = {
    "id": "9973bb78db6b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -3278,9 +4106,9 @@ window.JOBS_DATA = {
    ],
    "id": "579ae66da1fb",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Quality Control Inspector (Civil) - Nuclear Construction",
@@ -3317,8 +4145,9 @@ window.JOBS_DATA = {
    "id": "9071c141fa3c",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, Construction",
@@ -3351,7 +4180,7 @@ window.JOBS_DATA = {
    "id": "00360f46c8fa",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -3385,9 +4214,9 @@ window.JOBS_DATA = {
    ],
    "id": "68c48c373183",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Contracts Change Manager",
@@ -3422,8 +4251,9 @@ window.JOBS_DATA = {
    "id": "5f54a828034e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Construction Manager (Canada)",
@@ -3457,45 +4287,9 @@ window.JOBS_DATA = {
    ],
    "id": "c008e4360ca8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Manager",
-   "company": "TalentSphere",
-   "location": "Woodbridge, York region",
-   "city": "Woodbridge",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5868845780?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5868845780",
-   "datePosted": "2026-09-03T07:50:40.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description PROJECT MANAGER – ICI / INSTITUTIONAL CONSTRUCTION Greater Toronto Area, ON $130,000 – $160,000 Benefits | Full-Time Our client, an established General Contractor and Construction Management firm, is looking to add an experienced Project Manager to its growing construction team. The successful candidate will have a strong background managing institutional and commercial construction projects and will be capable of taking projects from preconstruction and procure…",
-   "industry": "Buildings",
-   "skills": [
-    "construction management"
-   ],
-   "matchScore": 55,
-   "matchLevel": "Good",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "4d965e385ca1",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Team Lead, Contract Administration - Municipal & Transportation Design",
@@ -3531,8 +4325,9 @@ window.JOBS_DATA = {
    "id": "12e73356f331",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Team Lead, Contract Administration - Municipal & Transportation Design",
@@ -3568,8 +4363,9 @@ window.JOBS_DATA = {
    "id": "0b046c890491",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager / Senior Engineer - Municipal Linear Infrastructure",
@@ -3601,9 +4397,9 @@ window.JOBS_DATA = {
    ],
    "id": "20f1a307519e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Scheduler",
@@ -3640,9 +4436,253 @@ window.JOBS_DATA = {
    "id": "bcd324573b00",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
+  },
+  {
+   "title": "Assistant Project Manager",
+   "company": "EBC Inc.",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5908648739?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908648739",
+   "datePosted": "2026-10-02T15:46:19.000Z",
+   "validThrough": "",
+   "salaryMin": 60000,
+   "salaryMax": 105000,
+   "salaryEstimated": false,
+   "salary": "$60,000–$105,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "For more than 50 years, the building team has been giving life to countless construction projects, distinguishing itself by the high quality of its work, respecting the highest industry standards and aiming to obtain environmental certifications. Engineers, architects, and other building specialists work hard to meet deadlines and exceed client expectations, while improving the well-being of communities. Office buildings, hospitals and research centers, educational institutions, residential bui…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "6d6bdb9db58c",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager",
+   "company": "Canacre",
+   "location": "Markham, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5907997865?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5907997865",
+   "datePosted": "2026-10-02T08:11:45.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Canacre’s core services focus on leadership in Environment and Land services throughout the project lifecycle. At Canacre, we emphasize continuous development and growth. Our commitment to investing in industry knowledge and the expertise of our teams sets us apart. Our goals are to provide technical leadership for greater regulatory understanding and certainty and to build collaborative relationships with stakeholders, mitigating tomorrow’s environment, land and…",
+   "industry": "Construction (general)",
+   "skills": [
+    "stakeholder management"
+   ],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a1a4106f8d62",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Construction Manager",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5907689526?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5907689526",
+   "datePosted": "2026-10-02T04:35:53.000Z",
+   "validThrough": "",
+   "salaryMin": 41600,
+   "salaryMax": 41600,
+   "salaryEstimated": false,
+   "salary": "$41,600 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Senior Construction Manager The Senior Construction Manager will oversee multiple construction and CAPEX projects. This will include capital improvement projects, MEP upgrades, retrofits & renovations, and new builds. The Senior Construction Manager will be responsible for managing design, planning (cost & schedule), and execution (quality assurance and job site safety & compliance) for our current & future HelloFresh Fulfillment Centers. You will manage enhancement projects and building constr…",
+   "industry": "Construction (general)",
+   "skills": [
+    "quality assurance"
+   ],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "6de6bab4b059",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager, Electrical Construction | MEP & Cabling Contractor | Richmond Hill, ON - MyGreat Re",
+   "company": "MyGreat Recruitment",
+   "location": "Richmond Hill, York region",
+   "city": "Richmond Hill",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5905580186?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905580186",
+   "datePosted": "2026-10-01T08:27:48.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Project Manager Electrical Construction Location: Richmond Hill / Greater Toronto Area, ON Salary: $120,000 - $180,000 An established electrical and MEP contractor is seeking an experienced Project Manager to oversee electrical construction projects throughout the Greater Toronto Area and across Ontario. The successful candidate will take ownership of projects from pre-construction and contract review through execution, closeout, and warranty, with responsibility…",
+   "industry": "Construction (general)",
+   "skills": [
+    "closeout"
+   ],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "c4f6e1fa02e2",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager - Electrical Utilities Technical Services",
+   "company": "Black & McDonald Limited",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903859361?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903859361",
+   "datePosted": "2026-09-30T07:14:30.000Z",
+   "validThrough": "",
+   "salaryMin": 75000,
+   "salaryMax": 100000,
+   "salaryEstimated": false,
+   "salary": "$75,000–$100,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description WHY JOIN THE TEAM We offer: A family business with family values Team events and outings year-round Competitive compensation Interesting and challenging work we're leaders in the industry Ongoing investment in training and development Long-term stability and opportunity for growth Number one in Utilities Safety Construction A commitment to Diversity, Equity and Inclusion WHAT YOU WILL CONTIBUTE TO THE TEAM Black & McDonald's Utilities team is growing! If you are …",
+   "industry": "Municipal & utilities",
+   "skills": [],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "25490afc77d5",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager - Electrical Utilities Technical Services",
+   "company": "Black & McDonald Limited",
+   "location": "Newcastle, Durham region",
+   "city": "Durham Region",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5903843039?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903843039",
+   "datePosted": "2026-09-30T07:02:46.000Z",
+   "validThrough": "",
+   "salaryMin": 75000,
+   "salaryMax": 100000,
+   "salaryEstimated": false,
+   "salary": "$75,000–$100,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description WHY JOIN THE TEAM We offer: A family business with family values Team events and outings year-round Competitive compensation Interesting and challenging work we're leaders in the industry Ongoing investment in training and development Long-term stability and opportunity for growth Number one in Utilities Safety Construction A commitment to Diversity, Equity and Inclusion WHAT YOU WILL CONTIBUTE TO THE TEAM Black & McDonald's Utilities team is growing! If you are …",
+   "industry": "Municipal & utilities",
+   "skills": [],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "e22119a6ae69",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager",
+   "company": "Modern Niagara",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5903650076?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903650076",
+   "datePosted": "2026-09-30T04:39:51.000Z",
+   "validThrough": "",
+   "salaryMin": 100000,
+   "salaryMax": 120000,
+   "salaryEstimated": false,
+   "salary": "$100,000–$120,000 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Modern Niagara Building Services helps building owners, managers, and general contractors meet the mechanical, electrical, integrated building technology, and building services needs of their buildings across Vancouver, Calgary, Edmonton, Toronto, Southwestern Ontario, and Ottawa. We also develop custom, turnkey solutions to help reach the desired outcomes. We are committed to having a positive and meaningful impact on Canada’s infrastructure and on the communities where we live, learn, work, a…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [],
+   "matchScore": 50,
+   "matchLevel": "Good",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "d8e868679b1c",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
   },
   {
    "title": "Specialist, Project Controls",
@@ -3680,8 +4720,9 @@ window.JOBS_DATA = {
    "id": "5ccd9e0815cd",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Contracts Manager",
@@ -3716,8 +4757,9 @@ window.JOBS_DATA = {
    "id": "449cd78ddac3",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Cost Controls Specialist",
@@ -3754,8 +4796,9 @@ window.JOBS_DATA = {
    "id": "713d43a662b6",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - Institutional Construction",
@@ -3787,9 +4830,9 @@ window.JOBS_DATA = {
    ],
    "id": "faf838776272",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager/Leader - Senior Toronto, ON Hybrid (2-3 days onsite)",
@@ -3824,8 +4867,9 @@ window.JOBS_DATA = {
    "id": "a96d44f8fc23",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager, Health - 6 Month Contract",
@@ -3860,8 +4904,9 @@ window.JOBS_DATA = {
    "id": "3e92aca74287",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -3893,9 +4938,9 @@ window.JOBS_DATA = {
    ],
    "id": "4f6c48c9fab9",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "26-097 IT Security Sr. Project Manager - 1 year contract - Oshawa (Hybrid)",
@@ -3930,8 +4975,9 @@ window.JOBS_DATA = {
    "id": "f3d76cb8e19e",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Buildings",
@@ -3963,9 +5009,9 @@ window.JOBS_DATA = {
    ],
    "id": "44c74912c008",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Heavy Civil - Toronto",
@@ -3998,8 +5044,9 @@ window.JOBS_DATA = {
    "id": "64270fe6e35b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - infrastructure",
@@ -4031,9 +5078,9 @@ window.JOBS_DATA = {
    ],
    "id": "77a7649ffa75",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Water/Wastewater Infrastructure",
@@ -4065,9 +5112,9 @@ window.JOBS_DATA = {
    ],
    "id": "b580418ce550",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager, Electrical Construction | MEP & Cabling Contractor | Richmond Hill, ON - MyGreat Recruitment",
@@ -4102,8 +5149,9 @@ window.JOBS_DATA = {
    "id": "07bbdf53104d",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - MAC (Moves, Add, and Changes)",
@@ -4135,9 +5183,9 @@ window.JOBS_DATA = {
    ],
    "id": "7e213a903549",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager (Water / Wastewater Construction)",
@@ -4169,9 +5217,9 @@ window.JOBS_DATA = {
    ],
    "id": "cf998696529b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - (Water/Wastewater Construction)",
@@ -4204,8 +5252,9 @@ window.JOBS_DATA = {
    "id": "1a91e5160893",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Architectural Project Manager",
@@ -4237,9 +5286,9 @@ window.JOBS_DATA = {
    ],
    "id": "1423233dc27a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Quantity Surveyor",
@@ -4276,9 +5325,9 @@ window.JOBS_DATA = {
    ],
    "id": "c4c1ab71d281",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Pre-Construction and Project Start-up Senior Project Manager",
@@ -4311,7 +5360,7 @@ window.JOBS_DATA = {
    "id": "8f5b857efd45",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4352,7 +5401,7 @@ window.JOBS_DATA = {
    "id": "b2041e84772e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4387,7 +5436,7 @@ window.JOBS_DATA = {
    "id": "ae38502a5760",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4428,77 +5477,7 @@ window.JOBS_DATA = {
    "id": "4be9f58694c6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Project Manager - Electrical Utilities Technical Services",
-   "company": "Black & McDonald Limited",
-   "location": "Newcastle, Durham region",
-   "city": "Durham Region",
-   "region": "Durham",
-   "url": "https://www.adzuna.ca/details/5890575446?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5890575446",
-   "datePosted": "2026-09-19T07:11:42.000Z",
-   "validThrough": "",
-   "salaryMin": 75000,
-   "salaryMax": 100000,
-   "salaryEstimated": false,
-   "salary": "$75,000–$100,000 / year",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description WHY JOIN THE TEAM We offer: A family business with family values Team events and outings year-round Competitive compensation Interesting and challenging work we're leaders in the industry Ongoing investment in training and development Long-term stability and opportunity for growth Number one in Utilities Safety Construction A commitment to Diversity, Equity and Inclusion WHAT YOU WILL CONTIBUTE TO THE TEAM Black & McDonald's Utilities team is growing! If you are …",
-   "industry": "Municipal & utilities",
-   "skills": [],
-   "matchScore": 50,
-   "matchLevel": "Good",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "e22119a6ae69",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Project Manager - Electrical Utilities Technical Services",
-   "company": "Black & McDonald Limited",
-   "location": "Toronto, Ontario",
-   "city": "Toronto",
-   "region": "Toronto",
-   "url": "https://www.adzuna.ca/details/5890573049?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5890573049",
-   "datePosted": "2026-09-19T07:09:28.000Z",
-   "validThrough": "",
-   "salaryMin": 75000,
-   "salaryMax": 100000,
-   "salaryEstimated": false,
-   "salary": "$75,000–$100,000 / year",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description WHY JOIN THE TEAM We offer: A family business with family values Team events and outings year-round Competitive compensation Interesting and challenging work we're leaders in the industry Ongoing investment in training and development Long-term stability and opportunity for growth Number one in Utilities Safety Construction A commitment to Diversity, Equity and Inclusion WHAT YOU WILL CONTIBUTE TO THE TEAM Black & McDonald's Utilities team is growing! If you are …",
-   "industry": "Municipal & utilities",
-   "skills": [],
-   "matchScore": 50,
-   "matchLevel": "Good",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "25490afc77d5",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4534,9 +5513,9 @@ window.JOBS_DATA = {
    ],
    "id": "fe51c4d7aa0a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Control Officer",
@@ -4574,7 +5553,7 @@ window.JOBS_DATA = {
    "id": "72e83b510029",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4609,7 +5588,7 @@ window.JOBS_DATA = {
    "id": "3e19f1d67763",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4644,7 +5623,7 @@ window.JOBS_DATA = {
    "id": "224f8a37d8a8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4681,7 +5660,7 @@ window.JOBS_DATA = {
    "id": "e534c3658a24",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4718,7 +5697,7 @@ window.JOBS_DATA = {
    "id": "9ec38130aa27",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4756,7 +5735,7 @@ window.JOBS_DATA = {
    "id": "4d5bee4a1f6d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4793,7 +5772,7 @@ window.JOBS_DATA = {
    "id": "ecd050b8571a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4830,7 +5809,7 @@ window.JOBS_DATA = {
    "id": "4ce795bb4495",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4865,7 +5844,7 @@ window.JOBS_DATA = {
    "id": "f67956d40cf6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4902,9 +5881,9 @@ window.JOBS_DATA = {
    ],
    "id": "72b4688cafd9",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Manager",
@@ -4937,7 +5916,7 @@ window.JOBS_DATA = {
    "id": "6c31a853e190",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -4971,9 +5950,9 @@ window.JOBS_DATA = {
    ],
    "id": "5d0d20e0aa2a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Coordinator , Construction and Development",
@@ -5007,12 +5986,12 @@ window.JOBS_DATA = {
    ],
    "id": "862acd4e4b9d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
-   "title": "Intermediate or Senior Project Manager - (Civil Construction)",
+   "title": "Intermediate or Senior Project Manager - (Water / Wastewater Construction)",
    "company": "Maple Reinders",
    "location": "Caledon, Peel region",
    "city": "Caledon",
@@ -5041,9 +6020,9 @@ window.JOBS_DATA = {
    ],
    "id": "3a2dba4a6f98",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Manager (ICI Construction)",
@@ -5075,9 +6054,9 @@ window.JOBS_DATA = {
    ],
    "id": "35932b2726c0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Scheduler / Planner (Civil Construction)",
@@ -5113,8 +6092,9 @@ window.JOBS_DATA = {
    "id": "c92c5c0f2028",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Assistant Project Manager - Construction - Vaughan",
@@ -5146,9 +6126,9 @@ window.JOBS_DATA = {
    ],
    "id": "ae55e34ea2dd",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Manager - Aviation",
@@ -5181,7 +6161,7 @@ window.JOBS_DATA = {
    "id": "104c98cc2c48",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -5216,7 +6196,7 @@ window.JOBS_DATA = {
    "id": "a1b2d0a9ea0f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -5251,8 +6231,9 @@ window.JOBS_DATA = {
    "id": "aa7d58264bb7",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Electrical Project Manager",
@@ -5285,8 +6266,9 @@ window.JOBS_DATA = {
    "id": "b8e09a2c2dfe",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Electrical Project Manager",
@@ -5319,7 +6301,7 @@ window.JOBS_DATA = {
    "id": "bea31f68daf7",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -5354,8 +6336,9 @@ window.JOBS_DATA = {
    "id": "4ef31754808d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Coordinator",
@@ -5388,8 +6371,9 @@ window.JOBS_DATA = {
    "id": "96030a216007",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Structural Engineer - Project Manager",
@@ -5423,9 +6407,9 @@ window.JOBS_DATA = {
    ],
    "id": "d1482a10e91f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager (MEP)",
@@ -5457,9 +6441,9 @@ window.JOBS_DATA = {
    ],
    "id": "c4ae0acd24c0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Planner - Buildings Ontario",
@@ -5493,9 +6477,9 @@ window.JOBS_DATA = {
    ],
    "id": "74f10dd806fa",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Electrical Project Manager - ICI Buildings - GTA",
@@ -5527,9 +6511,494 @@ window.JOBS_DATA = {
    ],
    "id": "7fb45a7051aa",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Construction Project Coordinator, Architectural Trades",
+   "company": "Ontario Transit Group",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911511162?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911511162",
+   "datePosted": "2026-10-04T08:18:09.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description:\\n\\nCompany Description\\n\\nFerrovial Construction Canada Inc. and VINCI Construction Grands Projets are undertaking the design, build, and finance of the Ontario Line Southern Civil, Stations, and Tunnel (South Civil) package.\\nAs Ontario Transit Group, we are now mobilizing our design and construction crews, with major works. The South Civil contract is anticipated to be completed in 2030.\\nThe project will strengthen Ontario’s economy by supporting an estimated…",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "9ef10aee277e",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Construction Project Manager",
+   "company": "Mattamy Homes",
+   "location": "Etobicoke, Toronto",
+   "city": "Etobicoke",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911276344?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911276344",
+   "datePosted": "2026-10-04T04:37:51.000Z",
+   "validThrough": "",
+   "salaryMin": 16640,
+   "salaryMax": 16640,
+   "salaryEstimated": false,
+   "salary": "$16,640 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Position at Stelumar Advanced Manufacturing Inc. Role: Construction Project Manager Location: Etobicoke & Mississauga, Ontario Company: Stelumar Advanced Manufacturing Inc. Department: Stelumar Communities Employment Type: Full-Time , Permanent Reports to: Construction Lead, Stelumar Communities Stelumar Advanced Manufacturing Inc. (SAMI or Stelumar) is a technology-driven company dedicated to revolutionizing homebuilding in Canada through advanced modular building solutions. Founded by Canadia…",
+   "industry": "Industrial",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "bf3fc204020e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
+  },
+  {
+   "title": "Commercial Manager, Facilities",
+   "company": "EllisDon",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5911274726?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911274726",
+   "datePosted": "2026-10-04T04:36:19.000Z",
+   "validThrough": "",
+   "salaryMin": 140000,
+   "salaryMax": 160000,
+   "salaryEstimated": false,
+   "salary": "$140,000–$160,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Connect with us LinkedIn, Instagram , Facebook , Twitter . Thinking about a change? We recognize that the construction industry is changing at a rapid pace and we continually strive to be at the forefront. Our core values empower people to deliver great careers to one another and develop creative solutions for complex problems on some of the most exciting projects. It doesn’t matter what your expertise and craft is – there are no boundaries. We are a group of professionals with a variety of exp…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "39414f4c7f18",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Construction Project Manager",
+   "company": "Stelumar Advanced Manufacturing",
+   "location": "Etobicoke, Toronto",
+   "city": "Etobicoke",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911270541?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911270541",
+   "datePosted": "2026-10-04T04:33:01.000Z",
+   "validThrough": "",
+   "salaryMin": 16640,
+   "salaryMax": 16640,
+   "salaryEstimated": false,
+   "salary": "$16,640 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Description Role: Construction Project Manager Location: Etobicoke & Mississauga, Ontario Company: Stelumar Advanced Manufacturing Inc. Department: Stelumar Communities Employment Type: Full-Time , Permanent Reports to: Construction Lead, Stelumar Communities Stelumar Advanced Manufacturing Inc. (SAMI or Stelumar) is a technology-driven company dedicated to revolutionizing homebuilding in Canada through advanced modular building solutions. Founded by Canadian entrepreneur Peter Gilgan, founder …",
+   "industry": "Industrial",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "f877f158a935",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Site Superintendent - ICI Construction",
+   "company": "TalentSphere",
+   "location": "Woodbridge, York region",
+   "city": "Woodbridge",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5910022158?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910022158",
+   "datePosted": "2026-10-03T08:21:38.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description SITE SUPERINTENDENT – ICI / INSTITUTIONAL CONSTRUCTION Greater Toronto Area, ON $125,000 – $155,000 Benefits | Full-Time Our client, an established General Contractor and Construction Management firm, is seeking an experienced Site Superintendent with a strong background delivering institutional and commercial construction projects . The successful candidate will take ownership of day-to-day site operations and be responsible for trade coordination, scheduling, …",
+   "industry": "Buildings",
+   "skills": [
+    "construction management",
+    "scheduling",
+    "subcontractor management"
+   ],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "0a561d323818",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager",
+   "company": "TalentSphere",
+   "location": "Roselawn, City of Toronto",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5910000604?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910000604",
+   "datePosted": "2026-10-03T08:15:51.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Project Manager – Institutional / Complex ICI Construction Compensation: $150K-$180K Location: Vaughan, Ontario Employment Type: Full-Time, Permanent Work Arrangement: In-Office / Project-Based Position Overview An established Ontario general contractor is seeking an experienced Project Manager to join its growing construction team. The company specializes in complex institutional and public-sector construction and currently has a strong pipeline of major project…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "170131ca9f33",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager- FMO",
+   "company": "Black & McDonald Limited",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909997238?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909997238",
+   "datePosted": "2026-10-03T08:14:19.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Career Opportunity Project Manager Facility Management Operations Downtown Toronto, ON BUILD YOUR CAREER AT BLACK & MCDONALD With a solid foundation, anything is possible. Building something from nothing is in your blood, and it's in ours too. It's why we choose to do meaningful work that transforms the world we live in. Like you, we can't wait to get our hands on exciting, diverse projects that make a difference in our communities. We're constantly growing (it's…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "b1e3d98e2e36",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "CONSTRUCTION PROJECT MANAGER",
+   "company": "Kingspan Insulated Panels Inc",
+   "location": "Bolton, Peel region",
+   "city": "Caledon",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5909996629?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909996629",
+   "datePosted": "2026-10-03T08:13:49.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Construction Project Manager Kingspan Insulated Panels North America, a division of the Kingspan Group plc headquartered in Ireland, is a global and trusted leader in the design, manufacturing, and supply of high-performance sustainable building products and solutions for the construction industry. As the most energy-efficient, cost-effective building envelope solutions, insulated metal panels are at the forefront of sustainability. We serve the architectural, co…",
+   "industry": "Industrial",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "bf1b289e5a4b",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Senior Water Resources Engineer/ Project Manager Water Resources",
+   "company": "GEI Consultants",
+   "location": "Markham, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5907936572?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5907936572",
+   "datePosted": "2026-10-02T07:11:40.000Z",
+   "validThrough": "",
+   "salaryMin": 85000,
+   "salaryMax": 125000,
+   "salaryEstimated": false,
+   "salary": "$85,000–$125,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Description Your role at GEI. Join Our Growing Legacy at GEI Consultants Canada Ltd. (GEI) Are you ready to take the next step in your water resources career and make a meaningful impact on the communities we serve? GEI Consultants Canada Ltd. is seeking a Senior Water Resources Engineer to join our growing Land Development practice in Markham, Ontario. This is an exciting opportunity for an experienced professional with 5–10 years of relevant consulting and engi…",
+   "industry": "Municipal & utilities",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "7b244d377660",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager, Construction - Multiple Sites",
+   "company": "William Osler Health System",
+   "location": "Brampton, Peel region",
+   "city": "Brampton",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5907910935?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5907910935",
+   "datePosted": "2026-10-02T07:07:55.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Company Description One of Canada's Best Diversity Employers and Greater Toronto's Top Employers for many consecutive years, William Osler Health System (Osler) provides a safe and supportive health care network to grow your career. Osler is nationally recognized for its commitment to patient safety and is Accredited with Exemplary Standing, the highest rating a Canadian hospital can receive. As a major Ontario hospital system, and home to some of the biggest spe…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "5de2462f8c87",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Land Development Project Manager (26057)",
+   "company": "GEMTEC Consulting Engineers and Scientists Limited.",
+   "location": "Bowmanville, Durham region",
+   "city": "Clarington",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5905583088?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905583088",
+   "datePosted": "2026-10-01T08:31:37.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description GEMTEC is looking for a Intermediate or Senior level Land Development Project Manager within our Clarington Office as we continue to service our clients in land development, municipal, and defense sectors. We have created a challenging and inviting workplace, where individuals are provided the opportunity to gain experience and advance their careers without limits. You will be joining a dedicated and collaborative team of Engineers and Scientists focused on Geote…",
+   "industry": "Municipal & utilities",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "054709ad26d5",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Accenture Construct - Scheduling Manager, COM",
+   "company": "Comtech",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903649422?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903649422",
+   "datePosted": "2026-09-30T04:39:13.000Z",
+   "validThrough": "",
+   "salaryMin": 129000,
+   "salaryMax": 160000,
+   "salaryEstimated": false,
+   "salary": "$129,000–$160,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Description You've Never Been Satisfied with “Good Enough.” You didn't get into this to manage one piece of a project. You got into it to change how the world gets built. At Accenture Construct, that's the job. You'll help deliver the data centers, power grids, rail networks, factories and public infrastructure that keep communities moving — smarter, safer and more sustainably. You'll work alongside people who think big and act bold: project managers, engineers, technologists and strategists wh…",
+   "industry": "Transit & rail",
+   "skills": [
+    "scheduling"
+   ],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "144f9752e54d",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Commercial Construction Estimator",
+   "company": "I8IS INC.",
+   "location": "Woodbridge, York region",
+   "city": "Woodbridge",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5902424489?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5902424489",
+   "datePosted": "2026-09-28T23:06:32.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "We are seeking an experienced Commercial Construction Estimator to manage the estimating and bidding process for commercial construction projects, including public and municipal tenders, structural packages, and commercial interior fit-outs . The successful candidate will review architectural, structural, and MEP drawings, complete accurate digital takeoffs, obtain subcontractor and supplier pricing, and prepare comprehensive bid proposals. This position works closely with Project Managers, Sit…",
+   "industry": "Industrial",
+   "skills": [
+    "estimating",
+    "subcontractor management"
+   ],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "0b50d2a40d9e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager - Data Centre Solutions",
+   "company": "Tate ASP Access Floors Inc",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5901603921?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5901603921",
+   "datePosted": "2026-09-28T09:03:03.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Job Description Job Type : Full Time (Hybrid) Reports to : Senior Project Manager, Tate ASP Positions : 1 Location : Burlington, Ontario (Hybrid) About Us Tate is a global leader in the design, engineering, and manufacture of innovative data centre infrastructure and raised access flooring solutions. As part of the Kingspan Group, Tate supports customers across North America and globally through innovative products, technical expertise, and customer-focused project execution. Ab…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [],
+   "matchScore": 45,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "80677959c36a",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Intermediate Architectural Project Manager",
@@ -5562,8 +7031,9 @@ window.JOBS_DATA = {
    "id": "853b71ee7f13",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager Public Sector Infrastructure (3 days onsite/week)",
@@ -5595,9 +7065,9 @@ window.JOBS_DATA = {
    ],
    "id": "43801bab77fc",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager/Leader",
@@ -5630,8 +7100,9 @@ window.JOBS_DATA = {
    "id": "b3d6b965945e",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Execution Contract Manager",
@@ -5664,8 +7135,9 @@ window.JOBS_DATA = {
    "id": "05fce8f5ae11",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Building Science Engineer - Project Coordinator",
@@ -5698,8 +7170,9 @@ window.JOBS_DATA = {
    "id": "9fcdbbcbad5b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager II (Industrial Construction/Food & Beverage)",
@@ -5732,8 +7205,9 @@ window.JOBS_DATA = {
    "id": "8cb3ecf181c5",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager – Rail & Transit",
@@ -5765,9 +7239,9 @@ window.JOBS_DATA = {
    ],
    "id": "103f8f0d700e",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Constructuion Scheduler - Toronto",
@@ -5802,9 +7276,9 @@ window.JOBS_DATA = {
    ],
    "id": "3243c17d754d",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Sr. Project Manager, Construction",
@@ -5837,8 +7311,9 @@ window.JOBS_DATA = {
    "id": "d6b762f0a0ff",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager, FF&E, Planning & Redevelopment - FT (J0926-0515)",
@@ -5870,9 +7345,9 @@ window.JOBS_DATA = {
    ],
    "id": "e4f0b75c7c31",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Manager (New Grad 2027)",
@@ -5905,8 +7380,9 @@ window.JOBS_DATA = {
    "id": "cfd124c0ecd9",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Rolling Stock Project Manager",
@@ -5939,8 +7415,9 @@ window.JOBS_DATA = {
    "id": "c40b5766ee6b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Pre-Construction Coordinator",
@@ -5974,9 +7451,9 @@ window.JOBS_DATA = {
    ],
    "id": "4ada219b535e",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Commercial Manager (Major Civil Infrastructure)",
@@ -6008,9 +7485,9 @@ window.JOBS_DATA = {
    ],
    "id": "0ddc8adeeb4e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Commercial Contracts Manager",
@@ -6043,7 +7520,7 @@ window.JOBS_DATA = {
    "id": "a0549e8176a0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6081,7 +7558,7 @@ window.JOBS_DATA = {
    "id": "4909242b3291",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6116,7 +7593,7 @@ window.JOBS_DATA = {
    "id": "16bd8228e02a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6150,9 +7627,9 @@ window.JOBS_DATA = {
    ],
    "id": "089a9a729b01",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Manager",
@@ -6185,7 +7662,7 @@ window.JOBS_DATA = {
    "id": "fd9658e6519d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6223,9 +7700,9 @@ window.JOBS_DATA = {
    ],
    "id": "a6795ff6354d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Infrastructure Patching Project Manager",
@@ -6258,7 +7735,7 @@ window.JOBS_DATA = {
    "id": "c0f29ace7069",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6293,7 +7770,7 @@ window.JOBS_DATA = {
    "id": "001d9c63d0e0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6327,9 +7804,9 @@ window.JOBS_DATA = {
    ],
    "id": "7df68d844e2c",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Data Center",
@@ -6362,7 +7839,7 @@ window.JOBS_DATA = {
    "id": "4ec6333bcceb",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6397,7 +7874,7 @@ window.JOBS_DATA = {
    "id": "8e4d8f0a32a1",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6431,9 +7908,9 @@ window.JOBS_DATA = {
    ],
    "id": "1e273fdc67c0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager- Six Month Contract-JSN",
@@ -6465,9 +7942,9 @@ window.JOBS_DATA = {
    ],
    "id": "db8e1503b55b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Assistant Project Manager",
@@ -6499,9 +7976,9 @@ window.JOBS_DATA = {
    ],
    "id": "46e1dc9e48ef",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "High-Rise Project Manager",
@@ -6534,7 +8011,7 @@ window.JOBS_DATA = {
    "id": "2306d25666ee",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6568,9 +8045,9 @@ window.JOBS_DATA = {
    ],
    "id": "c7bfca23b523",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Manager",
@@ -6603,8 +8080,9 @@ window.JOBS_DATA = {
    "id": "efa5f24c2557",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - Institutional Construction",
@@ -6637,7 +8115,7 @@ window.JOBS_DATA = {
    "id": "4fee57505b4c",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6672,7 +8150,7 @@ window.JOBS_DATA = {
    "id": "7d31b3ccc60e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6707,7 +8185,7 @@ window.JOBS_DATA = {
    "id": "fb5901efc571",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6741,9 +8219,9 @@ window.JOBS_DATA = {
    ],
    "id": "6aaab77baa89",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Manager - Heavy Civil Infrastructure",
@@ -6775,9 +8253,9 @@ window.JOBS_DATA = {
    ],
    "id": "7b2b0dcb8651",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Manager, Construction",
@@ -6810,7 +8288,7 @@ window.JOBS_DATA = {
    "id": "373e5402fac9",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6845,8 +8323,9 @@ window.JOBS_DATA = {
    "id": "030dbc530917",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Commercial Manager",
@@ -6879,8 +8358,9 @@ window.JOBS_DATA = {
    "id": "448e30a1767a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager",
@@ -6913,7 +8393,7 @@ window.JOBS_DATA = {
    "id": "0c939a04ce2b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6948,7 +8428,7 @@ window.JOBS_DATA = {
    "id": "81d631400102",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -6985,8 +8465,9 @@ window.JOBS_DATA = {
    "id": "c9fc6854b155",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Transportation Planning Project Manager",
@@ -7018,9 +8499,9 @@ window.JOBS_DATA = {
    ],
    "id": "aa776f45df84",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Manager",
@@ -7052,9 +8533,9 @@ window.JOBS_DATA = {
    ],
    "id": "20b0e7b03f1f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Manager",
@@ -7087,8 +8568,9 @@ window.JOBS_DATA = {
    "id": "fd309a19e30f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - Land Development",
@@ -7121,76 +8603,9 @@ window.JOBS_DATA = {
    "id": "a2eedda8ad20",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "CONSTRUCTION PROJECT MANAGER",
-   "company": "Kingspan Insulated Panels Inc",
-   "location": "Bolton, Peel region",
-   "city": "Caledon",
-   "region": "Peel",
-   "url": "https://www.adzuna.ca/details/5868839324?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5868839324",
-   "datePosted": "2026-09-03T07:48:40.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Construction Project Manager Kingspan Insulated Panels North America, a division of the Kingspan Group plc headquartered in Ireland, is a global and trusted leader in the design, manufacturing, and supply of high-performance sustainable building products and solutions for the construction industry. As the most energy-efficient, cost-effective building envelope solutions, insulated metal panels are at the forefront of sustainability. We serve the architectural, co…",
-   "industry": "Industrial",
-   "skills": [],
-   "matchScore": 45,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "bf1b289e5a4b",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Senior Water Resources Engineer/ Project Manager Water Resources",
-   "company": "GEI Consultants",
-   "location": "Markham, York region",
-   "city": "Markham",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5867024152?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5867024152",
-   "datePosted": "2026-09-02T07:04:39.000Z",
-   "validThrough": "",
-   "salaryMin": 85000,
-   "salaryMax": 125000,
-   "salaryEstimated": false,
-   "salary": "$85,000–$125,000 / year",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Description Your role at GEI. Join Our Growing Legacy at GEI Consultants Canada Ltd. (GEI) Are you ready to take the next step in your water resources career and make a meaningful impact on the communities we serve? GEI Consultants Canada Ltd. is seeking a Senior Water Resources Engineer to join our growing Land Development practice in Markham, Ontario. This is an exciting opportunity for an experienced professional with 5–10 years of relevant consulting and engi…",
-   "industry": "Municipal & utilities",
-   "skills": [],
-   "matchScore": 45,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "7b244d377660",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Contract Administrator - Roadways & Highways",
@@ -7223,7 +8638,7 @@ window.JOBS_DATA = {
    "id": "3742eba78ca6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -7257,78 +8672,9 @@ window.JOBS_DATA = {
    ],
    "id": "ec4cecd4079c",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Manager - Data Centre Solutions",
-   "company": "Tate ASP Access Floors Inc",
-   "location": "Mississauga, Peel region",
-   "city": "Mississauga",
-   "region": "Peel",
-   "url": "https://www.adzuna.ca/details/5861030118?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5861030118",
-   "datePosted": "2026-08-29T06:51:34.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "Hybrid",
-   "description": "Job Description Job Description Job Type : Full Time (Hybrid) Reports to : Senior Project Manager, Tate ASP Positions : 1 Location : Burlington, Ontario (Hybrid) About Us Tate is a global leader in the design, engineering, and manufacture of innovative data centre infrastructure and raised access flooring solutions. As part of the Kingspan Group, Tate supports customers across North America and globally through innovative products, technical expertise, and customer-focused project execution. Ab…",
-   "industry": "Heavy civil & infrastructure",
-   "skills": [],
-   "matchScore": 45,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "80677959c36a",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Senior Project Manager",
-   "company": "SSA Recruitment",
-   "location": "Toronto, Ontario",
-   "city": "Toronto",
-   "region": "Toronto",
-   "url": "https://www.adzuna.ca/details/5861028008?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5861028008",
-   "datePosted": "2026-08-29T06:50:38.000Z",
-   "validThrough": "",
-   "salaryMin": 120000,
-   "salaryMax": 140000,
-   "salaryEstimated": false,
-   "salary": "$120,000–$140,000 / year",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Location: Vaughan, ON (GTA) Salary: $120,00 About the Opportunity Our client is a well-established mechanical contractor with a strong reputation for delivering complex residential construction projects throughout the Greater Toronto Area. Due to continued growth, they are seeking an experienced Mechanical Construction Project Manager to oversee multiple projects from award through to completion. This is an excellent opportunity to join a stable and growing organ…",
-   "industry": "Buildings",
-   "skills": [],
-   "matchScore": 45,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "8ce4473b356a",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Scheduler",
@@ -7361,7 +8707,7 @@ window.JOBS_DATA = {
    "id": "e4f1733f9903",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -7395,9 +8741,9 @@ window.JOBS_DATA = {
    ],
    "id": "76d79535cd46",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Dewatering Project Manager",
@@ -7429,9 +8775,9 @@ window.JOBS_DATA = {
    ],
    "id": "e6eb19fe6f0f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Technical Lead & Project Manager (Existing Building Restoration), Building Sciences",
@@ -7463,9 +8809,9 @@ window.JOBS_DATA = {
    ],
    "id": "d414fddd8c33",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Technical Lead & Project Manager (Existing Building Restoration), Building Sciences",
@@ -7497,9 +8843,9 @@ window.JOBS_DATA = {
    ],
    "id": "c62b545bce07",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Construction Project Manager",
@@ -7532,8 +8878,9 @@ window.JOBS_DATA = {
    "id": "349dc611d352",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Construction Project Manager",
@@ -7566,9 +8913,499 @@ window.JOBS_DATA = {
    "id": "29524d63f9df",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
+  },
+  {
+   "title": "Contract Manager",
+   "company": "Deloitte",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911932083?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911932083",
+   "datePosted": "2026-10-04T20:56:49.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "description": "Job Type: Permanent Work Model: Hybrid Reference code: 134244 Primary Location: Toronto, ON All Available Locations: Toronto, ON; Brossard, QC; Burlington, ON; Calgary, AB; Edmonton, AB; Fredericton, NB; Halifax, NS; Kitchener, ON; Laval, QC; Moncton, NB; Montreal, QC; Ottawa, ON; Quebec City, QC; Regina, SK; Saint John, NB; Saskatoon, SK; St. John's, NL; Vancouver, BC; Victoria, BC; Winnipeg, MB Our Purpose At Deloitte, our Purpose is to make an impact that matters. We exist to inspire and hel…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a4678663a669",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "26-032 Sr. Contract Management Specialist",
+   "company": "Morson",
+   "location": "Oshawa, Durham region",
+   "city": "Oshawa",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5909722000?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909722000",
+   "datePosted": "2026-10-03T04:56:42.000Z",
+   "validThrough": "",
+   "salaryMin": 197600,
+   "salaryMax": 218400,
+   "salaryEstimated": false,
+   "salary": "$197,600–$218,400 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Title : Sr. Contract Management Specialist Resume Due Date : Friday, March 27 th , 2026 (5:00PM EST) Number of Vacancies : 1 Level : MP6, $95- $105/hr INC Duration : 12 Months Hours of work: 35 hours Location : 1908 Colonel Sam Drive (100% on site) Job Overview Development and implementation of governance, supporting procedures, contract and procurement templates Drafting and negotiating agreements Administration of contracts from the point of award through to close-out as it re…",
+   "industry": "Construction (general)",
+   "skills": [
+    "contract management",
+    "procurement",
+    "closeout"
+   ],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "b206865d1b5a",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator IV (2528)",
+   "company": "Morson",
+   "location": "Pickering, Durham region",
+   "city": "Pickering",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5909720112?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909720112",
+   "datePosted": "2026-10-03T04:53:03.000Z",
+   "validThrough": "",
+   "salaryMin": 145600,
+   "salaryMax": 176800,
+   "salaryEstimated": false,
+   "salary": "$145,600–$176,800 / year",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Location: Pickering, Ontario Work Model: Hybrid, 2-3 days on site per week Openings: 2 Job Type: Contract Duration: 1 Year Rate: $70 - 84/hour Hours: 40 hours/week Project: Nuclear The Project Coordinator supports project managers in the planning, execution, and completion of projects by helping manage schedules, resources, documentation, and communication among team members and stakeholders. This role ensures projects stay organized, on track, and aligned with business goals. K…",
+   "industry": "Nuclear & MCR",
+   "skills": [
+    "stakeholder management"
+   ],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "e78e038a3330",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "26-050 - Project Manager",
+   "company": "Morson",
+   "location": "Oshawa, Durham region",
+   "city": "Oshawa",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5909718431?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909718431",
+   "datePosted": "2026-10-03T04:49:46.000Z",
+   "validThrough": "",
+   "salaryMin": 166400,
+   "salaryMax": 208000,
+   "salaryEstimated": false,
+   "salary": "$166,400–$208,000 / year",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Title : Project Manager Resume Due Date : Thursday, April 30 th , 2026 (5:00PM EST) Number of Vacancies : 1 Level : MP4, $80 - $100/hr INC (Depending on your exp) Duration : 18 Months Hours of work: 35 hours Location : 1908 Colonel Sam Drive, Oshawa (Hybrid – 3 days remote) Job Overview Support Reporting and Tool Accuracy: Ensure project data is accurate and maintained in relevant tools. Contribute to internal reporting and audit readiness by keeping repositories updated. Assist…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "b813784fa272",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "26-051 - Senior Project Manager",
+   "company": "Morson",
+   "location": "Oshawa, Durham region",
+   "city": "Oshawa",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5909714837?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909714837",
+   "datePosted": "2026-10-03T04:43:49.000Z",
+   "validThrough": "",
+   "salaryMin": 187200,
+   "salaryMax": 208000,
+   "salaryEstimated": false,
+   "salary": "$187,200–$208,000 / year",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Title : Senior Project Manager Resume Due Date : Friday, May 1 st , 2026 (5:00PM EST) Number of Vacancies : 1 Level : MP6, $90/hr - $100/hr INC Duration : 12 Months Hours of work: 35 Hours Location : 1908 Colonel Sam Drive, Oshawa (Hybrid – 2 days remote) Job Overview The Senior Project Manager (Contract) will lead a portfolio of IT initiatives and oversee multiple Project Managers to ensure projects are planned, governed, and delivered successfully. This role is highly hands-on…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "d39207de5956",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Estimator",
+   "company": "Insight Global",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909668420?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909668420",
+   "datePosted": "2026-10-03T03:56:22.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Insight Global is looking for an Intermediate Estimator to join a large rail-infrastructure project. This individual will sit within the Track Alliance and play a key role in developing accurate, detailed, and defensible estimates for complex rail, track, and heavy civil infrastructure scopes. This is a highly technical and collaborative environment where communication, analytical ability, and large-scale infrastructure experience are critical. The ideal candidate will have stro…",
+   "industry": "Transit & rail",
+   "skills": [
+    "estimating"
+   ],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "8e1ab0a02203",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "RQ00751 - Jr. Project Manager/Leader",
+   "company": "Source Code",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5908013834?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908013834",
+   "datePosted": "2026-10-02T08:17:55.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Job Description RQ00751 - Jr. Project Manager/Leader 1-year contract (260 business days) - possible extension Hybrid (3 days onsite) - Metro Hall, 55 John Street Must Haves: 5 years supporting/delivering complex technology rollouts or digital enablement initiatives in large organizations. Experience delivering M365 or enterprise SaaS rollouts involving technical implementation, licensing, onboarding, training, comms, and adoption measurement. Experience coordinating delivery gat…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "d110cd5d2217",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Manager - 4R63VWW5",
+   "company": "Integricon Property Restoration and Construction Group Inc.",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5908013714?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908013714",
+   "datePosted": "2026-10-02T08:17:47.000Z",
+   "validThrough": "",
+   "salaryMin": 70000,
+   "salaryMax": 90000,
+   "salaryEstimated": false,
+   "salary": "$70,000–$90,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description INTEGRICON GROUP PROJECT MANAGER - Restoration Construction When someone's home has just flooded, or a business has shut its doors after a fire, they need one thing above everything else: someone who will take ownership and make it right. We're hiring for a Project Manager who brings order to chaos, clear-eyed judgment to complex files, and genuine care to people on their worst day. You'll run projects end to end, construction, restoration, emergency, commercial,…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "9d44e78abc54",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "RQ00725 - Project Manager",
+   "company": "Source Code",
+   "location": "Aurora, York region",
+   "city": "Aurora & Newmarket",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5905588950?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905588950",
+   "datePosted": "2026-10-01T08:36:23.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Job Description RQ00725 - Project Manager Location: Hybrid (2-3 days at HM's discretion) - Location: 100 Bloomington Rd W, Arora, ON 13 months contract (288 business days) Extension Project Description The Ontario Provincial Police (OPP), through the Communications and Technology Services Bureau (CTSB), is supporting the establishment of a new OPP detachment at Ontario Place. This facility will play a critical role in providing policing services for the revitalized Ontario Plac…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "548dce069b25",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager",
+   "company": "Alert Driving",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5905588896?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905588896",
+   "datePosted": "2026-10-01T08:36:17.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Project Manager: We are looking for a Project Coordinator to join our team. You should have a background in business skills, management, and analysis. You should be an excellent communicator and comfortable managing multiple tasks. You also need to be a team player and have a problem-solving aptitude. The Project Coordinator position is primarily focused on client interaction and support from the pre-launch stage forward. This position also requires multi-level i…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "3f281c1664cc",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "AutoCAD Drafter",
+   "company": "Danmare Group Inc",
+   "location": "Woodbridge, York region",
+   "city": "Woodbridge",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5905580339?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905580339",
+   "datePosted": "2026-10-01T08:28:05.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About Us Danmare Group provides design-build and turn key engineering solutions to clients who are leaders in the conusmer food, food processing, beverages, pet nutrition and pet food sectors. We provide full cycle project management, construction coordination, plant layout, process design, equipment specifications, installation, and qualification to our clients Danmare Group is part of AGI, a global leader in the planning, engineering and manufacturing of full s…",
+   "industry": "P3 / design-build",
+   "skills": [
+    "project management",
+    "design-build",
+    "autocad"
+   ],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "ccf3696e3c31",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager - Renewable Energy",
+   "company": "Durham Community Health Centre",
+   "location": "Oshawa, Durham region",
+   "city": "Oshawa",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5903858492?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903858492",
+   "datePosted": "2026-09-30T07:13:03.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Position Title: Project Manager - Renewable Energy Job Posting Deadline for Internal Candidates: August 5, 2026 Employment Status: 12 – 18 Months Fixed-Term Contract Position Status : This is a Non-Bargaining Unit position. Vacancy Status: This posting is for a new vacancy Hours of Work/Schedule: Monday to Friday, 35 Hours per week Annualized salary range : $80,000.00 - $95,000.00 commensurate on skills and experience, plus participation in HOOPP. Position Report…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "54caeb471d10",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Coordinator, Mechanical Construction",
+   "company": "Plan Group",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5901576109?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5901576109",
+   "datePosted": "2026-09-28T08:51:09.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description As a leading mechanical construction contractor we are involved in a number of large scale complex construction projects and are now looking to grow our team. To truly excel in this role you must have the ability to develop solid relationships and effectively communicate with both internal and external clients to positively influence others and drive for results. You are comfortable working in a fast paced environment, can proactively multi-task and manage multip…",
+   "industry": "Construction (general)",
+   "skills": [
+    "excel"
+   ],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "5b6ee89a4a2f",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Manager",
+   "company": "VR Mechanical Solutions Inc.",
+   "location": "Ajax, Durham region",
+   "city": "Ajax",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5900593409?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5900593409",
+   "datePosted": "2026-09-27T07:12:07.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the job Come join our team! VR Mechanical is an industry-leading, turn-key mechanical systems provider serving the ICI construction sector in Southern Ontario. We are a collaborative and solutions-driven partner looking for like-minded people to join our dynamic and growing team. Our core strengths in virtual construction, value engineering, preconstruction design, and fabrication help us establish the highest standards of project delivery in the market. Yo…",
+   "industry": "Construction (general)",
+   "skills": [],
+   "matchScore": 40,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "57370bf1a204",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
   },
   {
    "title": "Capital Project Risk Management Specialist",
@@ -7604,8 +9441,9 @@ window.JOBS_DATA = {
    "id": "3ffa2ea759c1",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager FCC",
@@ -7637,9 +9475,9 @@ window.JOBS_DATA = {
    ],
    "id": "93c8460ae37a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Project Coordinator, Ancillary Partnerships and Business Development (*1-Year Contract*)",
@@ -7672,8 +9510,9 @@ window.JOBS_DATA = {
    "id": "deaaf1210574",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Sr. Program Manager – Enterprise Transformation",
@@ -7708,8 +9547,9 @@ window.JOBS_DATA = {
    "id": "aeae2913675b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Vaughan - Construction",
@@ -7742,8 +9582,9 @@ window.JOBS_DATA = {
    "id": "44343940167b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Junior Project Control Officer",
@@ -7780,8 +9621,9 @@ window.JOBS_DATA = {
    "id": "ff0911a7e3a1",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator, Lakeshore West Drury Burloak Long Branch",
@@ -7814,8 +9656,9 @@ window.JOBS_DATA = {
    "id": "969926dfb7ca",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Guideway Superintendent",
@@ -7850,8 +9693,9 @@ window.JOBS_DATA = {
    "id": "e38179c6d72d",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Buildings Project Coordinator - Nuclear Construction",
@@ -7883,9 +9727,9 @@ window.JOBS_DATA = {
    ],
    "id": "84f97e1e31d4",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Interior Design Project Manager",
@@ -7917,9 +9761,9 @@ window.JOBS_DATA = {
    ],
    "id": "8ed12ef4942d",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -7953,9 +9797,9 @@ window.JOBS_DATA = {
    ],
    "id": "58eaffedfc27",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "On-Site Artwork Project Manager, Packaging",
@@ -7988,8 +9832,9 @@ window.JOBS_DATA = {
    "id": "4fe78a42de48",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager, Eastern Canada",
@@ -8021,9 +9866,9 @@ window.JOBS_DATA = {
    ],
    "id": "b00b0f136c09",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -8055,9 +9900,9 @@ window.JOBS_DATA = {
    ],
    "id": "607201fc32f5",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Sr Project Manager",
@@ -8090,8 +9935,9 @@ window.JOBS_DATA = {
    "id": "a02321afbdd2",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "On-Site Artwork Project Manager, Packaging",
@@ -8124,8 +9970,9 @@ window.JOBS_DATA = {
    "id": "433153643f75",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Contracts Administrator",
@@ -8157,9 +10004,9 @@ window.JOBS_DATA = {
    ],
    "id": "871753c82aef",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Site Superintendent Calgary",
@@ -8195,9 +10042,9 @@ window.JOBS_DATA = {
    ],
    "id": "ae93be8236c8",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Air Quality",
@@ -8229,9 +10076,9 @@ window.JOBS_DATA = {
    ],
    "id": "f23cb3e39081",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Director, Major Projects (Future Opportunities) - Ontario",
@@ -8264,7 +10111,7 @@ window.JOBS_DATA = {
    "id": "e6a9f70e28ef",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8299,7 +10146,7 @@ window.JOBS_DATA = {
    "id": "63053e7b8825",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8333,9 +10180,9 @@ window.JOBS_DATA = {
    ],
    "id": "e399d7e2f6bc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Facility and Mechanical Project Manager",
@@ -8368,7 +10215,7 @@ window.JOBS_DATA = {
    "id": "6b7cfb31114c",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8403,7 +10250,7 @@ window.JOBS_DATA = {
    "id": "8cb35dc85b10",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8438,7 +10285,7 @@ window.JOBS_DATA = {
    "id": "dbe97afa3e60",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8472,9 +10319,9 @@ window.JOBS_DATA = {
    ],
    "id": "220f02126342",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Control Officer",
@@ -8511,7 +10358,7 @@ window.JOBS_DATA = {
    "id": "f428fa6159df",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8549,7 +10396,7 @@ window.JOBS_DATA = {
    "id": "94adf3f97778",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8586,7 +10433,7 @@ window.JOBS_DATA = {
    "id": "f40564c9d8e0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8621,7 +10468,7 @@ window.JOBS_DATA = {
    "id": "c3014ff2070b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8659,7 +10506,7 @@ window.JOBS_DATA = {
    "id": "5d53797c60a3",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8699,7 +10546,7 @@ window.JOBS_DATA = {
    "id": "bd9112fadc0e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8734,7 +10581,7 @@ window.JOBS_DATA = {
    "id": "e907908ef196",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8771,9 +10618,9 @@ window.JOBS_DATA = {
    ],
    "id": "e540e9192be9",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Manager",
@@ -8806,7 +10653,7 @@ window.JOBS_DATA = {
    "id": "771c683b62f3",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8841,7 +10688,7 @@ window.JOBS_DATA = {
    "id": "48dd504f9c7a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8879,7 +10726,7 @@ window.JOBS_DATA = {
    "id": "6d4e9f6a8a20",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -8913,9 +10760,9 @@ window.JOBS_DATA = {
    ],
    "id": "d925c2b72bb9",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager- EPMO",
@@ -8947,9 +10794,9 @@ window.JOBS_DATA = {
    ],
    "id": "3952f648c580",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Junior Project Manager",
@@ -8982,7 +10829,7 @@ window.JOBS_DATA = {
    "id": "806551e7c862",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -9021,7 +10868,7 @@ window.JOBS_DATA = {
    "id": "3bb1a313aa24",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -9058,8 +10905,9 @@ window.JOBS_DATA = {
    "id": "35c60252cb81",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator / Estimator",
@@ -9093,9 +10941,9 @@ window.JOBS_DATA = {
    ],
    "id": "3be88d97a252",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator / Estimator",
@@ -9129,9 +10977,9 @@ window.JOBS_DATA = {
    ],
    "id": "839232f6eae0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager, Architectural Interiors",
@@ -9164,7 +11012,7 @@ window.JOBS_DATA = {
    "id": "bfc2bbaad81e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -9199,8 +11047,9 @@ window.JOBS_DATA = {
    "id": "27c6942ae52b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Pre-Construction Coordinator / Estimator",
@@ -9234,9 +11083,9 @@ window.JOBS_DATA = {
    ],
    "id": "ed8d515954db",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Manager - Michels Canada",
@@ -9268,9 +11117,9 @@ window.JOBS_DATA = {
    ],
    "id": "28cac8c162dc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Director, Major Projects (Future Opportunities) - Ontario",
@@ -9303,7 +11152,7 @@ window.JOBS_DATA = {
    "id": "eb06172b22d5",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -9338,8 +11187,9 @@ window.JOBS_DATA = {
    "id": "3bd74796723e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Manager - Building Services",
@@ -9371,9 +11221,9 @@ window.JOBS_DATA = {
    ],
    "id": "c8a27b13883a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Estimator",
@@ -9409,7 +11259,7 @@ window.JOBS_DATA = {
    "id": "13eac3a33bdd",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -9445,9 +11295,9 @@ window.JOBS_DATA = {
    ],
    "id": "6ab85b011d1f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Lead Planner- Major Civil and Infrastructure Projects",
@@ -9483,115 +11333,9 @@ window.JOBS_DATA = {
    "id": "3ab2b43af767",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "AutoCAD Drafter",
-   "company": "Danmare Group Inc",
-   "location": "Woodbridge, York region",
-   "city": "Woodbridge",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5864492265?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5864492265",
-   "datePosted": "2026-09-01T07:02:36.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description About Us Danmare Group provides design-build and turn key engineering solutions to clients who are leaders in the conusmer food, food processing, beverages, pet nutrition and pet food sectors. We provide full cycle project management, construction coordination, plant layout, process design, equipment specifications, installation, and qualification to our clients Danmare Group is part of AGI, a global leader in the planning, engineering and manufacturing of full s…",
-   "industry": "P3 / design-build",
-   "skills": [
-    "project management",
-    "design-build",
-    "autocad"
-   ],
-   "matchScore": 40,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "ccf3696e3c31",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "RQ00725 - Project Manager",
-   "company": "Source Code",
-   "location": "Aurora, York region",
-   "city": "Aurora & Newmarket",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5864480916?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5864480916",
-   "datePosted": "2026-09-01T06:59:29.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Contract",
-   "workArrangement": "Hybrid",
-   "description": "Job Description Job Description RQ00725 - Project Manager Location: Hybrid (2-3 days at HM's discretion) - Location: 100 Bloomington Rd W, Arora, ON 13 months contract (288 business days) Extension Project Description The Ontario Provincial Police (OPP), through the Communications and Technology Services Bureau (CTSB), is supporting the establishment of a new OPP detachment at Ontario Place. This facility will play a critical role in providing policing services for the revitalized Ontario Plac…",
-   "industry": "Construction (general)",
-   "skills": [],
-   "matchScore": 40,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "548dce069b25",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Manager - Renewable Energy",
-   "company": "Durham Community Health Centre",
-   "location": "Oshawa, Durham region",
-   "city": "Oshawa",
-   "region": "Durham",
-   "url": "https://www.adzuna.ca/details/5862141526?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5862141526",
-   "datePosted": "2026-08-30T06:45:41.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Contract",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Position Title: Project Manager - Renewable Energy Job Posting Deadline for Internal Candidates: August 5, 2026 Employment Status: 12 – 18 Months Fixed-Term Contract Position Status : This is a Non-Bargaining Unit position. Vacancy Status: This posting is for a new vacancy Hours of Work/Schedule: Monday to Friday, 35 Hours per week Annualized salary range : $80,000.00 - $95,000.00 commensurate on skills and experience, plus participation in HOOPP. Position Report…",
-   "industry": "Construction (general)",
-   "skills": [],
-   "matchScore": 40,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "54caeb471d10",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Manager - Redevelopment",
@@ -9624,8 +11368,9 @@ window.JOBS_DATA = {
    "id": "06e031d63c2f",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Commissioning Manager",
@@ -9660,21 +11405,58 @@ window.JOBS_DATA = {
    "id": "ccbaf2d7bc83",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
-   "title": "Project Coordinator, Mechanical Construction",
-   "company": "Plan Group",
-   "location": "Vaughan, York region",
-   "city": "Vaughan",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5838169835?utm_medium=api&utm_source=070f26fd",
+   "title": "Controls Engineer",
+   "company": "KION",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5911270536?utm_medium=api&utm_source=070f26fd",
    "source": "Adzuna",
    "sourceId": "adzuna",
    "sourceKind": "aggregator",
-   "postingId": "adzuna:5838169835",
-   "datePosted": "2026-08-12T07:26:32.000Z",
+   "postingId": "adzuna:5911270536",
+   "datePosted": "2026-10-04T04:33:01.000Z",
+   "validThrough": "",
+   "salaryMin": 75200,
+   "salaryMax": 112800,
+   "salaryEstimated": false,
+   "salary": "$75,200–$112,800 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Dematic Canada is seeking a talented Controls Engineer to join our Canadian Controls Engineering team! The ideal candidate will have up 2 years experience in controls engineering and is proficient in PLC programming, creating electrical layout and schematic, working with PLCs and HMIs (Ignition), and implementation and commissioning of engineering design projects. The candidate will be passionate about engineering projects through to completion, building relationships with customers, and undert…",
+   "industry": "Construction (general)",
+   "skills": [
+    "commissioning"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "b52e24adfc1a",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Landscape Architecture - Contract Administrator",
+   "company": "Stantec",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5911234359?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911234359",
+   "datePosted": "2026-10-04T04:08:37.000Z",
    "validThrough": "",
    "salaryMin": null,
    "salaryMax": null,
@@ -9682,23 +11464,408 @@ window.JOBS_DATA = {
    "salary": "",
    "employmentType": "Full-time",
    "workArrangement": "On-site",
-   "description": "Job Description Job Description As a leading mechanical construction contractor we are involved in a number of large scale complex construction projects and are now looking to grow our team. To truly excel in this role you must have the ability to develop solid relationships and effectively communicate with both internal and external clients to positively influence others and drive for results. You are comfortable working in a fast paced environment, can proactively multi-task and manage multip…",
-   "industry": "Construction (general)",
-   "skills": [
-    "excel"
-   ],
-   "matchScore": 40,
+   "description": "Strong communities don't just happen. They're thoughtfully planned and future-ready. We bring life to urban downtowns, suburban hubs, small towns, and rural areas through master-planned communities, mixed-use developments, parks, and recreation facilities. The result: vibrant economic centers, resilient neighborhoods, and welcoming places that feel like home. If you're passionate about empowering communities, join us to discover a career with endless opportunities to make communities more equit…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 35,
    "matchLevel": "Possible",
    "alsoFoundOn": [],
    "sourceIds": [
     "adzuna"
    ],
-   "id": "5b6ee89a4a2f",
+   "id": "66722b95c26f",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator (Nuclear)",
+   "company": "Black & McDonald Limited",
+   "location": "Pickering, Durham region",
+   "city": "Pickering",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5910024483?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910024483",
+   "datePosted": "2026-10-03T08:23:17.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description ABOUT THIS CAREER OPPORTUNITY Black & McDonald's Power Generation team is growing! If you are committed and collaborative professional looking to contribute to a hard-working, innovative team, this opportunity is for you. The Project Coordinator is located in Pickering and typically reports directly to the Project Manager. The Project Coordinator is an integral member of the project team responsible for delivering modification projects of varying size and complex…",
+   "industry": "Nuclear & MCR",
+   "skills": [],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "1b6e36ed2f46",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Engineering Project Support - SIMNJP00078374",
+   "company": "Morson",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909717920?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909717920",
+   "datePosted": "2026-10-03T04:49:21.000Z",
+   "validThrough": "",
+   "salaryMin": 62400,
+   "salaryMax": 83200,
+   "salaryEstimated": false,
+   "salary": "$62,400–$83,200 / year",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Role: Engineering Project Support 1 - CAN Contract Duration: 04/13/2026 to 07/31/2026 Work Site: Toronto, ON - on site Monday - Friday Description: * Supports the Engineering team by performing administrative tasks, such as: travel management, correspondence, taking minutes, etc.* May act as technical team assistance in the engineering organization. 2 years or Master Entry Responsibilities: • Assist with documenting project progress (installation, commissioning, legal, closeout,…",
+   "industry": "Construction (general)",
+   "skills": [
+    "closeout",
+    "commissioning"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "dedfeb2f5423",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Instrumentation and Controls Specialist",
+   "company": "Jacobs",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909668512?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909668512",
+   "datePosted": "2026-10-03T03:56:23.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "We are seeking a Senior Instrumentation & Controls Engineer to join our Electrical, Instrumentation & Controls team in Toronto. In this role, you will lead the development and delivery of advanced automation solutions for municipal water and wastewater treatment and distribution systems. You will play a key role in shaping complex infrastructure projects, working alongside multidisciplinary teams and industry-leading professionals to deliver reliable, innovative, and resilient control systems f…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "team leadership"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "d9efd01fe198",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Project Control Officer",
+   "company": "Insight Global",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909668454?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909668454",
+   "datePosted": "2026-10-03T03:56:22.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description We are seeking a highly experienced Senior Project Control Officer (PCO) to support large-scale banking initiatives and provide governance, financial oversight, reporting, and project controls across multiple programs. The successful candidate will have deep experience within the banking industry, strong Clarity PPM expertise, exceptional financial acumen, and advanced Excel capabilities. Provide end-to-end Project Control Officer support across complex banking programs and port…",
+   "industry": "Construction (general)",
+   "skills": [
+    "project controls",
+    "excel"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "30a5b06d14b4",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator - Buildings M&E",
+   "company": "WSP Canada",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909055182?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909055182",
+   "datePosted": "2026-10-02T20:56:32.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "What if you could redefine what's possible? With us, you can. With us, you can. You want Purpose. Growth. Opportunity. People who get it. We are the home of ambitious, passionate, and innovative world shapers. With an unmatched breadth and depth of engineering, advisory and science-based expertise, our global minds unite to power local solutions. We are pathfinders and impact makers. We are Visioneers. We are WSP. The Opportunity - Build the Future with Us As a Project Coordinator , you'll play…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "bef95297745a",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator",
+   "company": "EBC Inc.",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5908648774?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908648774",
+   "datePosted": "2026-10-02T15:46:20.000Z",
+   "validThrough": "",
+   "salaryMin": 60000,
+   "salaryMax": 105000,
+   "salaryEstimated": false,
+   "salary": "$60,000–$105,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "For more than 50 years, the building team has given life to countless construction projects, distinguished by the high quality of their work, meeting the highest standards in the industry and seeking environmental certifications. Engineers, architects and other building specialists work with heart and enthusiasm to meet deadlines and exceed customer expectations, while improving the well-being of communities. Office buildings, hospitals and research centers, educational establishments, resident…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "b789962a7977",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Workplace Project Coordinator",
+   "company": "Connect Resource Managers & Planners Inc.",
+   "location": "Oakville, Halton",
+   "city": "Oakville",
+   "region": "Halton",
+   "url": "https://www.adzuna.ca/details/5908014268?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908014268",
+   "datePosted": "2026-10-02T08:18:29.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description As the Workplace Project Coordinator, your primary duty will be to aid the Manager, Client Services with project planning, coordination, scheduling, and execution of assigned projects related to commercial furniture and workplace services. Key Responsibilities: Together with account management personnel or independently with existing clients as directed, gather information to evaluate client needs and work with team to determine scope of services required by clie…",
+   "industry": "Construction (general)",
+   "skills": [
+    "scheduling"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "94a4fdd59439",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Contract Administrator (Nuclear)",
+   "company": "Black & McDonald Limited",
+   "location": "Pickering, Durham region",
+   "city": "Pickering",
+   "region": "Durham",
+   "url": "https://www.adzuna.ca/details/5905582290?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905582290",
+   "datePosted": "2026-10-01T08:30:43.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description ABOUT THIS CAREER OPPORTUNITY Black & McDonald's Power Generation team is growing! If you are committed and collaborative professional looking to contribute to a hard-working, innovative team, this opportunity is for you. The Contract Administrator is located in Pickering and typically reports directly to the Director of Proposals & Commercial Management. This role supports the administration and commercial management of client agreements and contracts throughout…",
+   "industry": "Nuclear & MCR",
+   "skills": [],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "06a0187f96e0",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "COMMS & SCADA Construction Lead",
+   "company": "Trillium Rail Partners",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5905579011?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905579011",
+   "datePosted": "2026-10-01T08:26:37.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the Project: Trillium Rail Partners (TRP) is a consortium of Amico Major Projects, Alberici Constructors, and Acciona Infrastructure Canada, working closely with Metrolinx to deliver the Stations, Rail, and Systems (SRS) package for the Eglinton Crosstown West Extension (ECWE), a transformative 9.2 km expansion of Toronto’s light rail network. The ECWE will bring the Eglinton Crosstown LRT another 9.2 kilometres farther west, creating a continuous rapid tra…",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "0373abbbf6b5",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Director, Construction Management Field",
+   "company": "Metrolinx",
+   "location": "Toronto Dominion Centre, City of Toronto",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903646252?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903646252",
+   "datePosted": "2026-09-30T04:35:31.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Description Metrolinx is connecting communities across the Greater Golden Horseshoe. Metrolinx operates GO Transit and UP Express, as well as the PRESTO fare payment system. We are also building new and improved rapid transit, including GO Expansion, Light Rail Transit routes, and major expansions to Toronto’s subway system, to get people where they need to go, better, faster and easier. Metrolinx is an agency of the Government of Ontario. At Metrolinx, equity, diversity and inclusion are essen…",
+   "industry": "Transit & rail",
+   "skills": [
+    "construction management"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "11308ac57336",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator, Electrical Construction",
+   "company": "Plan Group",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5901598765?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5901598765",
+   "datePosted": "2026-09-28T08:59:43.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Are you looking for a role that provides challenge, growth and developmental opportunities? Are you looking to support managing a multi-million dollar project? Take the leap and make your mark at Plan Group! As an Project Coordinator, Electrical Construction , you: Support Project Managers and Site Supervisors to develop and actively maintain the project schedule and ensure project targets are achieved. Maintain and update document control logs and follow through…",
+   "industry": "Construction (general)",
+   "skills": [
+    "document control"
+   ],
+   "matchScore": 35,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a18938a6f82f",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Program Manager",
@@ -9733,8 +11900,9 @@ window.JOBS_DATA = {
    "id": "59ab2c46530c",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator - Toronto, ON",
@@ -9766,9 +11934,9 @@ window.JOBS_DATA = {
    ],
    "id": "c2da5344919f",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -9803,8 +11971,9 @@ window.JOBS_DATA = {
    "id": "baaf059fa65a",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Construction Inspector",
@@ -9839,8 +12008,9 @@ window.JOBS_DATA = {
    "id": "d748baf1ac89",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator Assistant",
@@ -9874,9 +12044,9 @@ window.JOBS_DATA = {
    ],
    "id": "74d27d1a7cb2",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Utility Site Superintendent",
@@ -9910,9 +12080,9 @@ window.JOBS_DATA = {
    ],
    "id": "eca241e66b4b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Assistant Utility Site Superintendent",
@@ -9947,8 +12117,9 @@ window.JOBS_DATA = {
    "id": "6495af321ae0",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Engineer, Rail and Transit",
@@ -9980,9 +12151,9 @@ window.JOBS_DATA = {
    ],
    "id": "36773de5d571",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Director - Buildings",
@@ -10015,7 +12186,7 @@ window.JOBS_DATA = {
    "id": "652b7343a563",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10052,7 +12223,7 @@ window.JOBS_DATA = {
    "id": "6beb152a867f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10090,7 +12261,7 @@ window.JOBS_DATA = {
    "id": "2f533556c2f8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10127,7 +12298,7 @@ window.JOBS_DATA = {
    "id": "b6ccd3ae44b8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10161,9 +12332,9 @@ window.JOBS_DATA = {
    ],
    "id": "46b9d2921074",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator - Site Investigations (Construction)",
@@ -10195,9 +12366,9 @@ window.JOBS_DATA = {
    ],
    "id": "55c3095102e0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Contract Administrator, Justice",
@@ -10229,9 +12400,9 @@ window.JOBS_DATA = {
    ],
    "id": "469f72bf219b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator, Justice",
@@ -10264,7 +12435,7 @@ window.JOBS_DATA = {
    "id": "4685904d50ed",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10299,7 +12470,7 @@ window.JOBS_DATA = {
    "id": "5c656de4be95",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10336,7 +12507,7 @@ window.JOBS_DATA = {
    "id": "fa16d02cd049",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10373,8 +12544,9 @@ window.JOBS_DATA = {
    "id": "9a7e3c289d4d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator",
@@ -10382,12 +12554,12 @@ window.JOBS_DATA = {
    "location": "Oakville, Halton",
    "city": "Oakville",
    "region": "Halton",
-   "url": "https://www.adzuna.ca/details/5883525824?utm_medium=api&utm_source=070f26fd",
+   "url": "https://www.adzuna.ca/details/5884562633?utm_medium=api&utm_source=070f26fd",
    "source": "Adzuna",
    "sourceId": "adzuna",
    "sourceKind": "aggregator",
-   "postingId": "adzuna:5883525824",
-   "datePosted": "2026-09-14T06:56:34.000Z",
+   "postingId": "adzuna:5884562633",
+   "datePosted": "2026-09-15T07:08:57.000Z",
    "validThrough": "",
    "salaryMin": 60000,
    "salaryMax": 80000,
@@ -10395,7 +12567,7 @@ window.JOBS_DATA = {
    "salary": "$60,000–$80,000 / year",
    "employmentType": "Full-time",
    "workArrangement": "On-site",
-   "description": "We Are Thermon Canada Inc. is a World leader in Process heating systems. We are currently experiencing rapid growth due to global expansion. We design and manufacture heating and filtration systems for the Energy sector primarily Oil, Gas, Nuclear and process heating applications. Thermon has an established record of innovation and excellence. We recognize this is only possible with the hard work and dedication of our employees. We strive to maintain a dynamic and diverse workforce. We offer en…",
+   "description": "Job Description Job Description We Are Thermon Canada Inc. is a World leader in Process heating systems. We are currently experiencing rapid growth due to global expansion. We design and manufacture heating and filtration systems for the Energy sector primarily Oil, Gas, Nuclear and process heating applications. Thermon has an established record of innovation and excellence. We recognize this is only possible with the hard work and dedication of our employees. We strive to maintain a dynamic an…",
    "industry": "Nuclear & MCR",
    "skills": [],
    "matchScore": 35,
@@ -10406,9 +12578,9 @@ window.JOBS_DATA = {
    ],
    "id": "f9306d63e7d2",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Intermediate Project Coordinator - Overhead Lines",
@@ -10440,9 +12612,9 @@ window.JOBS_DATA = {
    ],
    "id": "72562b0d9bcd",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator - Electrical ICI",
@@ -10475,8 +12647,9 @@ window.JOBS_DATA = {
    "id": "edc664910a98",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Director, Construction Management",
@@ -10511,9 +12684,9 @@ window.JOBS_DATA = {
    ],
    "id": "ede90837af1b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Director",
@@ -10546,8 +12719,9 @@ window.JOBS_DATA = {
    "id": "23d74c96db70",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Contract Administrator",
@@ -10579,9 +12753,9 @@ window.JOBS_DATA = {
    ],
    "id": "ba0a6515ca24",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Scheduler",
@@ -10614,8 +12788,9 @@ window.JOBS_DATA = {
    "id": "8619be67495d",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator",
@@ -10650,78 +12825,9 @@ window.JOBS_DATA = {
    "id": "8c8502206e16",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Coordinator (Nuclear)",
-   "company": "Black & McDonald Limited",
-   "location": "Pickering, Durham region",
-   "city": "Pickering",
-   "region": "Durham",
-   "url": "https://www.adzuna.ca/details/5868867384?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5868867384",
-   "datePosted": "2026-09-03T07:58:16.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description ABOUT THIS CAREER OPPORTUNITY Black & McDonald's Power Generation team is growing! If you are committed and collaborative professional looking to contribute to a hard-working, innovative team, this opportunity is for you. The Project Coordinator is located in Pickering and typically reports directly to the Project Manager. The Project Coordinator is an integral member of the project team responsible for delivering modification projects of varying size and complex…",
-   "industry": "Nuclear & MCR",
-   "skills": [],
-   "matchScore": 35,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "1b6e36ed2f46",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Project Coordinator, Electrical Construction",
-   "company": "Plan Group",
-   "location": "Vaughan, York region",
-   "city": "Vaughan",
-   "region": "York",
-   "url": "https://www.adzuna.ca/details/5859648485?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5859648485",
-   "datePosted": "2026-08-28T08:09:28.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Are you looking for a role that provides challenge, growth and developmental opportunities? Are you looking to support managing a multi-million dollar project? Take the leap and make your mark at Plan Group! As an Project Coordinator, Electrical Construction , you: Support Project Managers and Site Supervisors to develop and actively maintain the project schedule and ensure project targets are achieved. Maintain and update document control logs and follow through…",
-   "industry": "Construction (general)",
-   "skills": [
-    "document control"
-   ],
-   "matchScore": 35,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "a18938a6f82f",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Cladding Project Coordinator",
@@ -10754,7 +12860,7 @@ window.JOBS_DATA = {
    "id": "41f1ea5d182a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -10791,8 +12897,656 @@ window.JOBS_DATA = {
    "id": "ab6a503fb40e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
+  },
+  {
+   "title": "Project Coordinator",
+   "company": "Hitachi",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5912303299?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5912303299",
+   "datePosted": "2026-10-05T04:31:55.000Z",
+   "validThrough": "",
+   "salaryMin": 62124,
+   "salaryMax": 93186,
+   "salaryEstimated": false,
+   "salary": "$62,124–$93,186 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Location: Toronto, Ontario, Canada Job ID: R0146367 Date Posted: 2026-10-02 Company Name: Hitachi Rail Canada Inc. Profession (Job Category): Administration & Facilities Job Schedule: Full time Remote: No About Us A career at Hitachi Rail will help create a legacy. With operations in every corner of the world, our work goes to the cutting-edge of digital transformation and technology. From the multi-cultural strength of our global organisation to the sustainable and innovative ways we work to b…",
+   "industry": "Transit & rail",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "6edc771d8d92",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
+  },
+  {
+   "title": "Assistant Health & Safety Manager",
+   "company": "Salit Steel",
+   "location": "Vaughan, York region",
+   "city": "Vaughan",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5911284533?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5911284533",
+   "datePosted": "2026-10-04T04:44:31.000Z",
+   "validThrough": "",
+   "salaryMin": 95000,
+   "salaryMax": 105000,
+   "salaryEstimated": false,
+   "salary": "$95,000–$105,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Position Title: Assistant Health & Safety Manager (Successor to H&S Manager) Department: Health & Safety Location: Concord Target Salary Range: $95,000 – $105,000 per year POSITION SUMMARY The Assistant Health & Safety Manager leads the overall health and safety strategy and programs across all steel fabrication facilities and active construction sites (including high-rise residential, institutional, and infrastructure projects). You will drive continuous improvement across our operations in On…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [
+    "health and safety",
+    "continuous improvement"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a244263e6614",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Chief Estimator",
+   "company": "Webuild S.p.A.",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5910298939?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910298939",
+   "datePosted": "2026-10-03T12:40:59.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Select how often (in days) to receive an alert: Webuild is a global construction player specialized in building large works and complex infrastructure for the sustainable mobility, hydroelectric energy, water, green buildings and the tunnelling sectors. Webuild is the expression of 120 years of engineering experience applied in 50 countries, in five continents, thanks to the talent of 91,000 people from over 120 nationalities. With a total backlog reaching €65 billion (Consolidated Financial Re…",
+   "industry": "Heavy civil & infrastructure",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "bfd78db6253e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Electrical Estimator",
+   "company": "Alberici Constructors, LTD Canada",
+   "location": "Burlington, Halton",
+   "city": "Burlington",
+   "region": "Halton",
+   "url": "https://www.adzuna.ca/details/5910023491?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5910023491",
+   "datePosted": "2026-10-03T08:22:36.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Short Description: Alberici Constructors Ltd. is seeking an Electrical Estimator to join our growing team! This role is responsible for managing the estimating process for assigned projects and supporting preconstruction efforts across a variety of sectors. ABOUT ALBERICI Alberici Constructors, Ltd. is part of Alberici Corporation, a $4-billion North American construction firm recently ranked 31st largest General Contractor in Engineering News Record. Operating i…",
+   "industry": "Industrial",
+   "skills": [
+    "estimating"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "01e63d160618",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Reporting Coordinator",
+   "company": "Trillium Rail Partners",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5909988755?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909988755",
+   "datePosted": "2026-10-03T08:11:03.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the Project: The Eglinton Crosstown West Extension will bring the Eglinton Crosstown LRT another 9.2 kilometers farther west, creating a continuous rapid transit line from the east end of Toronto into Mississauga. The Stations, Rail, and Systems (SRS) package encompasses the design, construction, integration, and commissioning of key project components. Position Overview: TRP has a current vacancy for a Reporting Coordinator . TRP is seeking a Reporting Coo…",
+   "industry": "Transit & rail",
+   "skills": [
+    "commissioning"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "97c99ed70df9",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Director - Design & Construction",
+   "company": "Staples",
+   "location": "Richmond Hill, York region",
+   "city": "Richmond Hill",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5909712687?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909712687",
+   "datePosted": "2026-10-03T04:42:02.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Description Some of what you will do: The Director, Construction and Engineering, has ownership and accountability for the design, construction, fixture and engineering teams. Partner with the VP, Design, Construction and Asset Management to develop the strategy for the construction and engineering teams and will lead the full execution of the strategy for all enterprise assets (Retail and Closed Door). Will lead construction and engineering procurement activities and participate in vendor mana…",
+   "industry": "Construction (general)",
+   "skills": [
+    "procurement",
+    "asset management"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "af7c3f945646",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Assistant",
+   "company": "Morson",
+   "location": "Etobicoke, Toronto",
+   "city": "Etobicoke",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909705756?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909705756",
+   "datePosted": "2026-10-03T04:32:34.000Z",
+   "validThrough": "",
+   "salaryMin": 93600,
+   "salaryMax": 124800,
+   "salaryEstimated": false,
+   "salary": "$93,600–$124,800 / year",
+   "employmentType": "Contract",
+   "workArrangement": "Hybrid",
+   "description": "Job Description Location: Etobicoke, Ontario In-Office: Hybrid (2 - 3 Days a Week) Vacancies: 3 vacancies (Permanent & Contract) Start Date: ASAP Job Title: Project Assistant Position Overview We are looking for a highly organized and proactive Project Assistant to support our Project Management team in the successful delivery of projects. This role involves coordinating project schedules, budgets, documentation, and reporting, ensuring accuracy and efficiency throughout the project lifecycle. …",
+   "industry": "Construction (general)",
+   "skills": [
+    "project management",
+    "budgeting"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "ae3419680959",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Control Officer",
+   "company": "Insight Global",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5909668449?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5909668449",
+   "datePosted": "2026-10-03T03:56:22.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Insight Global is seeking a PCO to support a portfolio of technology initiatives within a leading bank in downtown Toronto. This individual will act as a trusted partner to Program Managers, Project Managers, and Technology Leaders, ensuring strong governance, financial oversight, reporting, risk management, and project coordination across both strategic programs and BAU portfolio initiatives. Responsibilities - Manage and maintain project schedules, track milestones and depende…",
+   "industry": "Construction (general)",
+   "skills": [
+    "project controls",
+    "risk management"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "20a9f1e0271e",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Senior Subcontracts Administrator, Linewide",
+   "company": "Trillium Rail Partners",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5908016453?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908016453",
+   "datePosted": "2026-10-02T08:21:30.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the Project: The Eglinton Crosstown West Extension will bring the Eglinton Crosstown LRT another 9.2 kilometers farther west, creating a continuous rapid transit line from the east end of Toronto into Mississauga. The Stations, Rail, and Systems (SRS) package encompasses the design, construction, integration, and commissioning of key project components. Position Overview: TRP has a current vacancy for a Senior Subcontracts Administrator. The Senior Subcontr…",
+   "industry": "Transit & rail",
+   "skills": [
+    "commissioning"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "dea6e9cabda6",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator Capital Development - Redevelopment",
+   "company": "William Osler Health System",
+   "location": "Brampton, Peel region",
+   "city": "Brampton",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5908007617?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5908007617",
+   "datePosted": "2026-10-02T08:15:25.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Company Description One of Canada's Best Diversity Employers and Greater Toronto's Top Employers for many consecutive years, William Osler Health System (Osler) provides a safe and supportive health care network to grow your career. Osler is nationally recognized for its commitment to patient safety and is Accredited with Exemplary Standing, the highest rating a Canadian hospital can receive. As a major Ontario hospital system, and home to some of the biggest spe…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "84c2a830cf8c",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Quality Control Inspector - Electrical - Industrial East",
+   "company": "Bird Construction",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5907691367?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5907691367",
+   "datePosted": "2026-10-02T04:37:53.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Quality Control Inspector - Electrical - Industrial East Reporting to the Quality Lead, the Quality Control Inspector (Electrical) works closely with the construction execution team and site supervision to ensure all work performed by Bird Construction complies with applicable company, client, regulatory, and code requirements. This role is responsible for performing inspections, verifying compliance, and supporting the implementation of the project quality program. This position is based in Pi…",
+   "industry": "Industrial",
+   "skills": [
+    "quality assurance",
+    "site inspections"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "3dc6a4dd433a",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Lead Process Engineer - Water & Wastewater",
+   "company": "GEI Consultants",
+   "location": "Markham, York region",
+   "city": "Markham",
+   "region": "York",
+   "url": "https://www.adzuna.ca/details/5905592921?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905592921",
+   "datePosted": "2026-10-01T08:37:30.000Z",
+   "validThrough": "",
+   "salaryMin": 115000,
+   "salaryMax": 125000,
+   "salaryEstimated": false,
+   "salary": "$115,000–$125,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Description Your role at GEI. GEI Consultants Canada is seeking a Process Engineer to support the growth of our Civil Practice. This role combines technical leadership in water and wastewater facility design with project management responsibilities, including client engagement and delivery oversight. You’ll work on impactful projects, collaborate with multidisciplinary teams, and mentor emerging talent within a flexible and collaborative working environment. Esse…",
+   "industry": "Industrial",
+   "skills": [
+    "project management",
+    "team leadership"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "f100636c8761",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator",
+   "company": "Team Construction",
+   "location": "Burlington, Halton",
+   "city": "Burlington",
+   "region": "Halton",
+   "url": "https://www.adzuna.ca/details/5905588927?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905588927",
+   "datePosted": "2026-10-01T08:36:20.000Z",
+   "validThrough": "",
+   "salaryMin": 80000,
+   "salaryMax": 90000,
+   "salaryEstimated": false,
+   "salary": "$80,000–$90,000 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description We are currently seeking an experienced ICI Commercial Construction Project Coordinator to join our Team. This is an office-based role (on-site) in our Burlington office. Key Purpose: The Project Coordinator (PC) is an integral member of the project team, responsible for delivering construction projects of varying sizes and complexity. Under the direction of the Project Manager, the PC is responsible for directing, organizing, and controlling project activities, …",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "04e161ced8b3",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "RQ00209 - Int. Data Analytical Specialist/Scientist",
+   "company": "Source Code",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5905585304?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5905585304",
+   "datePosted": "2026-10-01T08:33:16.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Contract",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description RQ00209 - Int. Data Analytical Specialist/Scientist 6-month contract (130 business days) - possible extension Up to 3 days onsite (subject to HM's discretion) - 20 Bay Street Must Haves: 5 years experience - Proficiency in Excel, SQL, and Python for querying, manipulating, validating, and analyzing data. 5 years experience and skill with preparing analyses, summaries, memos, and reports using computer applications including Power-BI, Databricks, and MS suite. 5 y…",
+   "industry": "Construction (general)",
+   "skills": [
+    "power bi",
+    "excel"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "a3d5052629cf",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Project Coordinator, Transportation Structures",
+   "company": "Entuitive",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5904085587?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5904085587",
+   "datePosted": "2026-09-30T12:37:05.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "What is the opportunity? We are a firm that does things a little differently. This is your opportunity to join our high-calibre, experienced group of professionals on a mission to re-imagine the future by changing the way that buildings are conceived and constructed. Entuitive is looking for a Transportation Project Coordinator, based out of our Toronto office. Join our dynamic team supporting engineering projects in the transportation sector. This role will support the planning, execution, and…",
+   "industry": "Buildings",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "5f081bf185be",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "Mechanical EIT",
+   "company": "The HIDI Group",
+   "location": "Toronto, Ontario",
+   "city": "Toronto",
+   "region": "Toronto",
+   "url": "https://www.adzuna.ca/details/5903850637?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903850637",
+   "datePosted": "2026-09-30T07:06:23.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description We are looking for a Mechanical EIT! The HIDI Group is an employee-owned, multi-disciplinary engineering consultancy delivering innovative building systems solutions across Canada. With over 150 professionals and offices in Toronto, Ottawa, and Calgary, we bring together eight integrated disciplines—Mechanical, Electrical, Plumbing, Lighting, Communications & AV, Security & Risk, Commissioning, and Energy Services—under one collaborative roof. Our teams work on a…",
+   "industry": "Construction (general)",
+   "skills": [
+    "commissioning",
+    "team leadership"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "e6482f1cadb5",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Intermediate Capital Cost Estimator",
+   "company": "TWD Technologies Ltd.",
+   "location": "Burlington, Halton",
+   "city": "Burlington",
+   "region": "Halton",
+   "url": "https://www.adzuna.ca/details/5903833742?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5903833742",
+   "datePosted": "2026-09-30T06:59:18.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Intermediate Capital Cost Estimator TWD is an engineering, procurement, and construction management consulting company providing project development, execution and specialty engineering services for the oil and gas industry with expertise ranging from refinery, pipelines, renewables, food and beverage, power, downstream chemical processing, and much more. Our team is dedicated to providing clients with effective business and technical solutions through exceptiona…",
+   "industry": "Construction (general)",
+   "skills": [
+    "construction management",
+    "procurement"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "1b00f3770e37",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "new"
+  },
+  {
+   "title": "S&TCS Work Package Manager",
+   "company": "Trillium Rail Partners",
+   "location": "Mississauga, Peel region",
+   "city": "Mississauga",
+   "region": "Peel",
+   "url": "https://www.adzuna.ca/details/5902779987?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5902779987",
+   "datePosted": "2026-09-29T07:04:27.000Z",
+   "validThrough": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryEstimated": false,
+   "salary": "",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description About the Project: The Eglinton Crosstown West Extension will bring the Eglinton Crosstown LRT another 9.2 kilometers farther west, creating a continuous rapid transit line from the east end of Toronto into Mississauga. The Stations, Rail, and Systems (SRS) package encompasses the design, construction, integration, and commissioning of key project components. Position Overview: TRP has a current vacancy for a S&TC Work Package Manager who will be responsible for …",
+   "industry": "Transit & rail",
+   "skills": [
+    "commissioning"
+   ],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "802fbe78d031",
+   "firstSeen": "2026-09-21T16:30:21.004Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -10824,9 +13578,9 @@ window.JOBS_DATA = {
    ],
    "id": "ee6fcf342eb3",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior IT Applications Specialist (PMIS)",
@@ -10862,8 +13616,9 @@ window.JOBS_DATA = {
    "id": "15a8a1bc89fc",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Team Lead, Senior Cost Controller",
@@ -10896,8 +13651,9 @@ window.JOBS_DATA = {
    "id": "c25ba4958ec3",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Scheduler",
@@ -10929,9 +13685,9 @@ window.JOBS_DATA = {
    ],
    "id": "9bc562a9c00b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Lead Engineer - Roadway Design",
@@ -10967,8 +13723,9 @@ window.JOBS_DATA = {
    "id": "8e61f2744e47",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Engineer - Roadway Design",
@@ -11004,8 +13761,9 @@ window.JOBS_DATA = {
    "id": "756f688a4373",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Engineer - Roadway Design",
@@ -11041,8 +13799,9 @@ window.JOBS_DATA = {
    "id": "1a4607a8f00b",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Lead Engineer - Roadway Design",
@@ -11078,8 +13837,9 @@ window.JOBS_DATA = {
    "id": "f30ff4f902ff",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Chief Detailer",
@@ -11115,8 +13875,42 @@ window.JOBS_DATA = {
    ],
    "id": "274e998c08f9",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
+  },
+  {
+   "title": "Project Coordinator - Roofing Projects",
+   "company": "Empire Roofing",
+   "location": "Georgetown, Halton",
+   "city": "Halton Hills",
+   "region": "Halton",
+   "url": "https://www.adzuna.ca/details/5896883162?utm_medium=api&utm_source=070f26fd",
+   "source": "Adzuna",
+   "sourceId": "adzuna",
+   "sourceKind": "aggregator",
+   "postingId": "adzuna:5896883162",
+   "datePosted": "2026-09-24T09:02:40.000Z",
+   "validThrough": "",
+   "salaryMin": 52000,
+   "salaryMax": 58240,
+   "salaryEstimated": false,
+   "salary": "$52,000–$58,240 / year",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "description": "Job Description Job Description Empire Roofing Corporation is one of North America's leading commercial and industrial roofing companies, specializing in commercial/industrial flat roofing projects from 1,000 to 1,000,000 square feet. Always innovating, we were one of the first Canadian companies to offer TPO (Thermoplastic Polyolefin Roofing Membrane). Job Summary The Project Administrator plays a vital role in supporting the production team and ensuring the smooth and efficient execution of o…",
+   "industry": "Industrial",
+   "skills": [],
+   "matchScore": 30,
+   "matchLevel": "Possible",
+   "alsoFoundOn": [],
+   "sourceIds": [
+    "adzuna"
+   ],
+   "id": "63eace67c567",
+   "firstSeen": "2026-10-05T10:14:53.566Z",
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "new"
   },
   {
@@ -11152,8 +13946,9 @@ window.JOBS_DATA = {
    "id": "16c32a97ab4e",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Superintendent- Water/Wastewater",
@@ -11186,8 +13981,9 @@ window.JOBS_DATA = {
    "id": "2170a18c39ae",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Scheduler- Infrastructure",
@@ -11219,9 +14015,9 @@ window.JOBS_DATA = {
    ],
    "id": "e6aff31f2f62",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Construction Project Coordinator",
@@ -11253,9 +14049,9 @@ window.JOBS_DATA = {
    ],
    "id": "861fc8b72724",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Commercial Projects Manager (Transactions)",
@@ -11289,9 +14085,9 @@ window.JOBS_DATA = {
    ],
    "id": "b348aa8d6724",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "PLAA Senior Specialist",
@@ -11326,8 +14122,9 @@ window.JOBS_DATA = {
    "id": "bb62cac67391",
    "firstSeen": "2026-09-28T10:13:20.509Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Commercial Administrator (Major Civil Infrastructure)",
@@ -11361,9 +14158,9 @@ window.JOBS_DATA = {
    ],
    "id": "6920ce4a8ea0",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Control Cost & Schedule Analyst (Nuclear)",
@@ -11397,9 +14194,9 @@ window.JOBS_DATA = {
    ],
    "id": "61e1e07a03e4",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Control Cost & Schedule Analyst (Nuclear)",
@@ -11433,9 +14230,9 @@ window.JOBS_DATA = {
    ],
    "id": "82c7015c3a89",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Administrator",
@@ -11470,9 +14267,9 @@ window.JOBS_DATA = {
    ],
    "id": "60ed58eef00b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Senior Superintendent",
@@ -11508,9 +14305,9 @@ window.JOBS_DATA = {
    ],
    "id": "f8f1f897d939",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Administrator",
@@ -11545,9 +14342,9 @@ window.JOBS_DATA = {
    ],
    "id": "ed86118906c6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Procurement Specialist",
@@ -11584,7 +14381,7 @@ window.JOBS_DATA = {
    "id": "3128e3fbf356",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11623,7 +14420,7 @@ window.JOBS_DATA = {
    "id": "21cc8a7e6aa9",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11659,9 +14456,9 @@ window.JOBS_DATA = {
    ],
    "id": "b8105b30b0d8",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Estimator (HVAC & Industrial)",
@@ -11696,7 +14493,7 @@ window.JOBS_DATA = {
    "id": "81af568b83f2",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11732,9 +14529,9 @@ window.JOBS_DATA = {
    ],
    "id": "a6e8e6d50158",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Contract Administrator",
@@ -11767,7 +14564,7 @@ window.JOBS_DATA = {
    "id": "dd0b73dbb97b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11806,7 +14603,7 @@ window.JOBS_DATA = {
    "id": "f630e3387e4b",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11842,9 +14639,9 @@ window.JOBS_DATA = {
    ],
    "id": "71036693fe98",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Buyer - Systems Track",
@@ -11879,7 +14676,7 @@ window.JOBS_DATA = {
    "id": "b9bdbcaf1061",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -11913,9 +14710,9 @@ window.JOBS_DATA = {
    ],
    "id": "7324ba97c409",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Project Coordinator",
@@ -11947,9 +14744,9 @@ window.JOBS_DATA = {
    ],
    "id": "fa0fe1f73179",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Infrastructure & Capital Projects- Delivery Director-Construction Management, COM",
@@ -11984,7 +14781,7 @@ window.JOBS_DATA = {
    "id": "a4ba61cf5e12",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12018,9 +14815,9 @@ window.JOBS_DATA = {
    ],
    "id": "bc32dfd66a10",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Junior Estimator / Estimating Coordinator",
@@ -12054,9 +14851,9 @@ window.JOBS_DATA = {
    ],
    "id": "e0509b82ee21",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Contract Administrator",
@@ -12089,7 +14886,7 @@ window.JOBS_DATA = {
    "id": "fe371b1c2c4e",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12126,9 +14923,9 @@ window.JOBS_DATA = {
    ],
    "id": "06571abf3347",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Major Project Director Defence, Canada",
@@ -12161,7 +14958,7 @@ window.JOBS_DATA = {
    "id": "b4c943a37e32",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12196,7 +14993,7 @@ window.JOBS_DATA = {
    "id": "ef85ebea5f8f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12231,7 +15028,7 @@ window.JOBS_DATA = {
    "id": "7ebc19b5e414",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12266,7 +15063,7 @@ window.JOBS_DATA = {
    "id": "7697e90417b5",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12300,9 +15097,9 @@ window.JOBS_DATA = {
    ],
    "id": "81f18d5b9531",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Subcontract Administrator",
@@ -12334,9 +15131,9 @@ window.JOBS_DATA = {
    ],
    "id": "a9673ac6f4dc",
    "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Technical Delivery Specialist",
@@ -12371,8 +15168,9 @@ window.JOBS_DATA = {
    "id": "3c01154f1ffe",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Scheduler",
@@ -12405,7 +15203,7 @@ window.JOBS_DATA = {
    "id": "2d440128924a",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12442,8 +15240,9 @@ window.JOBS_DATA = {
    "id": "b1fb877de0d5",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Contracts Administrator, Supply Chain Management (Montreal, Toronto or Calgary)",
@@ -12476,8 +15275,9 @@ window.JOBS_DATA = {
    "id": "7710ced9f9c6",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Estimator",
@@ -12512,7 +15312,7 @@ window.JOBS_DATA = {
    "id": "b9293b0a6328",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12547,8 +15347,9 @@ window.JOBS_DATA = {
    "id": "dd3ceb5849db",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Project Coordinator",
@@ -12581,8 +15382,9 @@ window.JOBS_DATA = {
    "id": "e40efde97632",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "MEP Project Coordinator",
@@ -12615,8 +15417,9 @@ window.JOBS_DATA = {
    "id": "278981c42e35",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Structural Technical Coordinator",
@@ -12651,8 +15454,9 @@ window.JOBS_DATA = {
    "id": "d9df9ab559ce",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "closed",
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Construction Estimators (NOC: 22303)",
@@ -12688,45 +15492,9 @@ window.JOBS_DATA = {
    "id": "21681f6b9155",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
-  },
-  {
-   "title": "Electrical Estimator",
-   "company": "Alberici Constructors, LTD Canada",
-   "location": "Burlington, Halton",
-   "city": "Burlington",
-   "region": "Halton",
-   "url": "https://www.adzuna.ca/details/5868780131?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5868780131",
-   "datePosted": "2026-09-03T07:14:09.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description Short Description: Alberici Constructors Ltd. is seeking an Electrical Estimator to join our growing team! This role is responsible for managing the estimating process for assigned projects and supporting preconstruction efforts across a variety of sectors. ABOUT ALBERICI Alberici Constructors, Ltd. is part of Alberici Corporation, a $4-billion North American construction firm recently ranked 31st largest General Contractor in Engineering News Record. Operating i…",
-   "industry": "Industrial",
-   "skills": [
-    "estimating"
-   ],
-   "matchScore": 30,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "01e63d160618",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
+   "closedAt": "2026-10-05T10:14:53.566Z"
   },
   {
    "title": "Senior Project Planner",
@@ -12758,9 +15526,9 @@ window.JOBS_DATA = {
    ],
    "id": "8d905f6c6947",
    "firstSeen": "2026-09-28T10:13:20.509Z",
-   "lastSeen": "2026-09-28T10:13:20.509Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "new"
+   "lastSeen": "2026-10-05T10:14:53.566Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
+   "status": "active"
   },
   {
    "title": "Special Projects - Project Coordinator (Construction)",
@@ -12793,7 +15561,7 @@ window.JOBS_DATA = {
    "id": "8122c64f7013",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12828,117 +15596,7 @@ window.JOBS_DATA = {
    "id": "50733dc2c315",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Project Coordinator",
-   "company": "Team Construction",
-   "location": "Burlington, Halton",
-   "city": "Burlington",
-   "region": "Halton",
-   "url": "https://www.adzuna.ca/details/5864452197?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5864452197",
-   "datePosted": "2026-09-01T06:54:59.000Z",
-   "validThrough": "",
-   "salaryMin": 80000,
-   "salaryMax": 90000,
-   "salaryEstimated": false,
-   "salary": "$80,000–$90,000 / year",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description We are currently seeking an experienced ICI Commercial Construction Project Coordinator to join our Team. This is an office-based role (on-site) in our Burlington office. Key Purpose: The Project Coordinator (PC) is an integral member of the project team, responsible for delivering construction projects of varying sizes and complexity. Under the direction of the Project Manager, the PC is responsible for directing, organizing, and controlling project activities, …",
-   "industry": "Buildings",
-   "skills": [],
-   "matchScore": 30,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "04e161ced8b3",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "Mechanical EIT",
-   "company": "The HIDI Group",
-   "location": "Toronto, Ontario",
-   "city": "Toronto",
-   "region": "Toronto",
-   "url": "https://www.adzuna.ca/details/5862149090?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5862149090",
-   "datePosted": "2026-08-30T06:48:59.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description We are looking for a Mechanical EIT! The HIDI Group is an employee-owned, multi-disciplinary engineering consultancy delivering innovative building systems solutions across Canada. With over 150 professionals and offices in Toronto, Ottawa, and Calgary, we bring together eight integrated disciplines—Mechanical, Electrical, Plumbing, Lighting, Communications & AV, Security & Risk, Commissioning, and Energy Services—under one collaborative roof. Our teams work on a…",
-   "industry": "Construction (general)",
-   "skills": [
-    "commissioning",
-    "team leadership"
-   ],
-   "matchScore": 30,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "e6482f1cadb5",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
-   "status": "closed",
-   "closedAt": "2026-09-28T10:13:20.509Z"
-  },
-  {
-   "title": "S&TCS Work Package Manager",
-   "company": "Trillium Rail Partners",
-   "location": "Mississauga, Peel region",
-   "city": "Mississauga",
-   "region": "Peel",
-   "url": "https://www.adzuna.ca/details/5862144673?utm_medium=api&utm_source=070f26fd",
-   "source": "Adzuna",
-   "sourceId": "adzuna",
-   "sourceKind": "aggregator",
-   "postingId": "adzuna:5862144673",
-   "datePosted": "2026-08-30T06:46:49.000Z",
-   "validThrough": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryEstimated": false,
-   "salary": "",
-   "employmentType": "Full-time",
-   "workArrangement": "On-site",
-   "description": "Job Description Job Description About the Project: The Eglinton Crosstown West Extension will bring the Eglinton Crosstown LRT another 9.2 kilometers farther west, creating a continuous rapid transit line from the east end of Toronto into Mississauga. The Stations, Rail, and Systems (SRS) package encompasses the design, construction, integration, and commissioning of key project components. Position Overview: TRP has a current vacancy for a S&TC Work Package Manager who will be responsible for …",
-   "industry": "Transit & rail",
-   "skills": [
-    "commissioning"
-   ],
-   "matchScore": 30,
-   "matchLevel": "Possible",
-   "alsoFoundOn": [],
-   "sourceIds": [
-    "adzuna"
-   ],
-   "id": "802fbe78d031",
-   "firstSeen": "2026-09-21T16:30:21.004Z",
-   "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -12975,7 +15633,7 @@ window.JOBS_DATA = {
    "id": "03f7e6e399d4",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   },
@@ -13010,7 +15668,7 @@ window.JOBS_DATA = {
    "id": "a358b5376a4f",
    "firstSeen": "2026-09-21T16:30:21.004Z",
    "lastSeen": "2026-09-21T16:30:21.004Z",
-   "lastChecked": "2026-09-28T10:13:20.509Z",
+   "lastChecked": "2026-10-05T10:14:53.566Z",
    "status": "closed",
    "closedAt": "2026-09-28T10:13:20.509Z"
   }
